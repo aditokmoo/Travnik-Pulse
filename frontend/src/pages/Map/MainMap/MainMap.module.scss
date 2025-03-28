@@ -1,0 +1,29 @@
+@import "../../../styles/variables.scss";
+#map {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+
+  .cancelRoute {
+    position: absolute;
+    bottom: 12rem;
+    right: 3rem;
+    z-index: 999999;
+    background-color: $color-primary-red;
+    padding: 2rem;
+    color: #fff;
+    border: 0;
+    border-radius: 5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+      font-size: 2rem;
+    }
+  }
+}

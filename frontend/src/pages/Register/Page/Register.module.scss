@@ -1,0 +1,98 @@
+@import "../../../styles/mixin.scss";
+@import "../../../styles/variables.scss";
+.formWrapper {
+  padding: 0 2rem;
+  .registerSection {
+    margin: 5rem 0 20rem 0;
+
+    h2 {
+      font-size: 5rem;
+    }
+
+    p {
+      @include text("text-xl-semibold");
+      color: #333;
+      padding-right: 7rem;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      margin: 4rem 0;
+      gap: 1rem;
+      border-radius: 2rem;
+      align-items: center;
+
+      img {
+        margin-bottom: 2rem;
+
+        width: 20rem;
+      }
+
+      button {
+        width: 40rem;
+        max-width: 40rem;
+        margin-top: 3rem;
+        line-height: 2.4rem;
+        font-size: 1.6rem;
+        color: #fff;
+        font-weight: 700;
+        padding: 1.7rem;
+        background-color: $color-primary-red;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        @include text("text-xl-bold");
+
+        width: 100%;
+        max-width: none;
+      }
+
+      a {
+        text-decoration: none;
+        margin: 1rem 0;
+        padding: 1rem;
+        color: $color-primary-red;
+        @include text("text-lg-regular");
+      }
+
+      .inputContainer {
+        width: 100%;
+        label {
+          display: block;
+          margin: 1rem 0;
+          color: #828282;
+          @include text("text-xl-regular");
+        }
+
+        input {
+          width: 40rem;
+          max-width: 40rem;
+          padding: 1.5rem;
+          border-radius: 6px;
+          border: 1px solid #e0e0e0;
+          color: #666666;
+          font-size: 1.5rem;
+          outline: none;
+          @include text("text-xl-regular");
+
+          width: 100%;
+          max-width: none;
+
+          &::placeholder {
+            color: #e0e0e0;
+            font-size: 1.6rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+.container {
+  @include desktop-md() {
+    max-width: 60rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

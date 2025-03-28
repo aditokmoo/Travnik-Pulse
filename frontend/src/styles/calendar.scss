@@ -1,0 +1,74 @@
+@import "../styles/mixin.scss";
+
+.react-calendar__month-view__days {
+  display: grid !important;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  @include desktop-md() {
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  }
+}
+
+.react-calendar__year-view__months {
+  display: grid !important;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+}
+.react-calendar__decade-view__years {
+  display: grid !important;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+}
+
+.react-calendar__century-view__decades {
+  display: grid !important;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+}
+
+.react-calendar__month-view__weekdays {
+  display: none !important;
+}
+
+.react-calendar__navigation {
+  display: flex;
+  margin-bottom: 2rem;
+
+  .react-calendar__navigation__label {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    pointer-events: none;
+
+    @include text("text-lg-semibold");
+  }
+
+  //YEAR NEXT BUTTON
+  .react-calendar__navigation__arrow {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 3rem;
+    font-family: "Satoshi", sans-serif;
+  }
+}
+
+.react-calendar__navigation__next-button {
+  margin-right: 2rem;
+}
+
+.react-calendar__navigation__prev-button {
+  margin-left: 2rem;
+}
+
+.react-calendar__tile {
+  cursor: pointer;
+  margin-left: 0 !important;
+  margin-inline: 0 !important;
+  transition: all 0.3s ease;
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: rgba(darken(#000, 15), 0.12) 0px 2px 3px,
+      rgba(darken(#000, 15), 0.24) 0px 2px 2px;
+  }
+}

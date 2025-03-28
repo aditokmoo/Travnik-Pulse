@@ -1,0 +1,73 @@
+@import "../../../styles/mixin.scss";
+
+.exploreSection {
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  padding: 2rem 0 4rem 0;
+  justify-content: center;
+}
+
+.interactionWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  img {
+    @include responsive("mobile") {
+      max-width: 30rem;
+    }
+
+    @include responsive-custom(25em) {
+      max-width: 20rem;
+    }
+  }
+
+  h2 {
+    margin-top: 4rem;
+    @include text("display-md-bold");
+  }
+
+  p {
+    max-width: 33rem;
+    text-align: center;
+    span {
+      color: #f37022;
+    }
+
+    @include text("text-md-semibold");
+  }
+
+  button:last-of-type {
+    padding: 1.2rem 2rem;
+    background-color: #f37022;
+    color: #fff;
+    border: none;
+    outline: none;
+    width: 33rem;
+    max-width: 33rem;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: 600;
+    margin-top: 4rem;
+    cursor: pointer;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+
+  button:first-of-type {
+    font-size: 2.4rem;
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    align-items: center;
+    gap: 10px;
+    border-radius: 95px;
+    cursor: pointer;
+    background-color: #f7f2f2;
+    border: none;
+    align-self: flex-start;
+  }
+}

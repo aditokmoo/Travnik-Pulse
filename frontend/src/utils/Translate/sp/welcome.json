@@ -1,0 +1,44 @@
+{
+    "yes": "Sí",
+    "no": "No",
+    "welcome_page": {
+        "h1_text": "Bienvenido a Travnik",
+        "p_text": "¡Ciudad de buena gente y buena comida! Encontrar gente, pasar el rato, comer bien, aprender sobre historia, disfrutar de la naturaleza, visitar museos...",
+        "button_text": "Explorar Travnik"
+    },
+    "details_page": {
+        "h1_text": "Haznos conocerte mejor",
+        "p_text": "Bríndenos información que mejorará su disfrute en Travnik.",
+        "time_details": {
+            "title": "¿Por cuanto tiempo estarás ahi?"
+        },
+        "suggest_text": "¿Quieres que te sugieramos?",
+        "people_details": {
+            "title": "¿Cuántos de ustedes están visitando Travnik?"
+        },
+        "button_text": "Continuar"
+    },
+    "location_page": {
+        "h1_text": "Dinos donde estas",
+        "p_text": "Al marcar su ubicación podremos sugerirle los mejores lugares en Travnik, cerca de usted.",
+        "button_text": "Proceder a la aplicación"
+    },
+    "preferences_page": {
+        "h1_text": "Selecciona tus preferencias",
+        "p_text": "Elige 5 preferencias que te gustaría ver mientras exploras Travnik",
+        "preferences": {
+            "1": "Comida",
+            "2": "Vida nocturna",
+            "3": "Arte",
+            "4": "Historia",
+            "5": "Museos",
+            "6": "Películas",
+            "7": "Música",
+            "8": "Cultura",
+            "9": "Parques",
+            "10": "Ciencia",
+            "11": "Deportes"
+        },
+        "button_text": "Enviar opciones"
+    }
+}

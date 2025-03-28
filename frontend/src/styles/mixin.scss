@@ -1,0 +1,449 @@
+@mixin responsive($bp) {
+  @if ($bp == "tab-land") {
+    @media only screen and (max-width: 75em) {
+      @content;
+    }
+  }
+  @if ($bp == "tab-port") {
+    @media only screen and (max-width: 56.25em) {
+      @content;
+    }
+  }
+
+  @if ($bp == "mobile") {
+    @media only screen and (max-width: 37.5em) {
+      @content;
+    }
+  }
+}
+
+@mixin responsive-custom($bp) {
+  @media only screen and (max-width: $bp) {
+    @content;
+  }
+}
+
+//TEXT
+
+@mixin text($var) {
+  @if ($var == "display-2xl-regular") {
+    color: #101828;
+    /* Display 2xl Regular */
+    font-size: 7.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 9rem; /* 125% */
+    letter-spacing: -1.44px;
+  }
+
+  @if ($var == "display-2xl-medium") {
+    color: #101828;
+    /* Display 2xl Medium */
+    font-size: 7.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 9rem; /* 125% */
+    letter-spacing: -1.44px;
+  }
+
+  @if ($var == "display-2xl-semibold") {
+    color: #101828;
+    /* Display 2xl Semibold */
+    font-size: 7.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 9rem; /* 125% */
+    letter-spacing: -1.44px;
+  }
+
+  @if ($var == "display-2xl-bold") {
+    color: #101828;
+    /* Display 2xl Bold */
+    font-size: 7.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 9rem; /* 125% */
+    letter-spacing: -1.44px;
+  }
+
+  @if ($var == "display-xl-regular") {
+    color: #101828;
+    /* Display xl Regular */
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 7.2rem; /* 120% */
+    letter-spacing: -1.2rem;
+  }
+
+  @if ($var == "display-xl-medium") {
+    color: #101828;
+    /* Display xl Medium */
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 72px; /* 120% */
+    letter-spacing: -1.2px;
+  }
+
+  @if ($var == "display-xl-semibold") {
+    color: #101828;
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 7.2rem; /* 120% */
+    letter-spacing: -1.2px;
+  }
+
+  @if ($var == "display-xl-bold") {
+    color: #101828;
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 7.2rem; /* 120% */
+    letter-spacing: -1.2px;
+  }
+
+  @if ($var == "display-lg-regular") {
+    color: #101828;
+    /* Display xl Regular */
+    font-size: 4.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 6rem; /* 125% */
+    letter-spacing: -0.96px;
+  }
+
+  @if ($var == "display-lg-medium") {
+    color: #101828;
+    /* Display xl Medium */
+    font-size: 4.8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 6rem; /* 125% */
+    letter-spacing: -0.96px;
+  }
+
+  @if ($var == "display-lg-semibold") {
+    color: #101828;
+    font-size: 4.8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 6rem; /* 125% */
+    letter-spacing: -0.96px;
+  }
+
+  @if ($var == "display-lg-bold") {
+    color: #101828;
+    font-size: 4.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 6rem; /* 125% */
+    letter-spacing: -0.96px;
+  }
+
+  @if ($var == "display-md-regular") {
+    color: #101828;
+    /* Display xl Regular */
+    font-size: 3.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4.4rem; /* 122.222% */
+    letter-spacing: -0.72px;
+  }
+
+  @if ($var == "display-md-medium") {
+    color: #101828;
+    /* Display xl Medium */
+    font-size: 3.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 4.4rem; /* 122.222% */
+    letter-spacing: -0.72px;
+  }
+
+  @if ($var == "display-md-semibold") {
+    color: #101828;
+    font-size: 3.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 6rem; /* 125% */
+    letter-spacing: -0.96px;
+  }
+
+  @if ($var == "display-md-bold") {
+    color: #101828;
+    font-size: 3.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 6rem; /* 125% */
+    letter-spacing: -0.96px;
+  }
+
+  @if ($var == "display-md-regular") {
+    color: #101828;
+    /* Display xl Regular */
+    font-size: 3.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4.4rem; /* 122.222% */
+    letter-spacing: -0.72px;
+  }
+
+  @if ($var == "display-md-medium") {
+    color: #101828;
+    /* Display xl Medium */
+    font-size: 3.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 4.4rem; /* 122.222% */
+    letter-spacing: -0.72px;
+  }
+
+  @if ($var == "display-md-semibold") {
+    color: #101828;
+    font-size: 3.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 6rem; /* 125% */
+    letter-spacing: -0.96px;
+  }
+
+  @if ($var == "display-md-bold") {
+    color: #101828;
+    font-size: 3.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 6rem; /* 125% */
+    letter-spacing: -0.96px;
+  }
+
+  @if ($var == "display-sm-regular") {
+    color: #101828;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.8rem; /* 126.667% */
+  }
+
+  @if ($var == "display-sm-medium") {
+    color: #101828;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 3.8rem; /* 126.667% */
+  }
+
+  @if ($var == "display-sm-semibold") {
+    color: #101828;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 3.8rem; /* 126.667% */
+  }
+
+  @if ($var == "display-sm-bold") {
+    color: #101828;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.8rem; /* 126.667% */
+  }
+
+  @if ($var == "display-xs-regular") {
+    color: #101828;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.2rem; /* 133.333% */
+  }
+
+  @if ($var == "display-xs-medium") {
+    color: #101828;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 3.2rem; /* 133.333% */
+  }
+
+  @if ($var == "display-xs-semibold") {
+    color: #101828;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 3.2rem; /* 133.333% */
+  }
+
+  @if ($var == "display-xs-bold") {
+    color: #101828;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.2rem; /* 133.333% */
+  }
+
+  @if ($var == "text-xl-regular") {
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem; /* 150% */
+  }
+
+  @if ($var == "text-xl-medium") {
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 3rem; /* 150% */
+  }
+
+  @if ($var == "text-xl-semibold") {
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 3rem;
+  }
+
+  @if ($var == "text-xl-bold") {
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3rem;
+  }
+  //lgggg
+
+  @if ($var == "text-lg-regular") {
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.8rem; /* 150% */
+  }
+
+  @if ($var == "text-lg-medium") {
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.8rem; /* 150% */
+  }
+
+  @if ($var == "text-lg-semibold") {
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.8rem;
+  }
+
+  @if ($var == "text-lg-bold") {
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.8rem;
+  }
+
+  //mmdd
+
+  @if ($var == "text-md-regular") {
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.4rem; /* 150% */
+  }
+
+  @if ($var == "text-md-medium") {
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.4rem; /* 150% */
+  }
+
+  @if ($var == "text-md-semibold") {
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.4rem;
+  }
+
+  @if ($var == "text-md-bold") {
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.4rem;
+  }
+
+  //smmm
+
+  @if ($var == "text-sm-regular") {
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem; /* 150% */
+  }
+
+  @if ($var == "text-sm-medium") {
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2rem; /* 150% */
+  }
+
+  @if ($var == "text-sm-semibold") {
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2rem;
+  }
+
+  @if ($var == "text-sm-bold") {
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2rem;
+  }
+
+  //xss
+
+  @if ($var == "text-xs-regular") {
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.8rem; /* 150% */
+  }
+
+  @if ($var == "text-xs-medium") {
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.8rem; /* 150% */
+  }
+
+  @if ($var == "text-xs-semibold") {
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.8rem;
+  }
+
+  @if ($var == "text-xs-bold") {
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.8rem;
+  }
+}
+
+@mixin desktop() {
+  @media only screen and (min-width: 37.5em) {
+    @content;
+  }
+}
+
+@mixin desktop-md() {
+  @media only screen and (min-width: 56.25em) {
+    @content;
+  }
+}
+
+@mixin desktop-lg() {
+  @media only screen and (min-width: 75em) {
+    @content;
+  }
+}

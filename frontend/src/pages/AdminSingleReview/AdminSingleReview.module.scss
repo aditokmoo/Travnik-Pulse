@@ -1,0 +1,124 @@
+@import "../../styles/mixin.scss";
+.sectionBody {
+  padding: 10rem 3rem;
+
+  h2 {
+    @include text("text-xl-semibold");
+
+    @include desktop-md() {
+      @include text("display-xl-semibold");
+    }
+  }
+
+  .sub {
+    @include text("text-md-medium");
+
+    @include desktop-md() {
+      @include text("display-xs-semibold");
+    }
+  }
+
+  .userWrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 700 !important;
+
+    svg {
+      font-size: 2rem;
+    }
+
+    @include desktop-md() {
+      @include text("text-xl-regular");
+
+      svg {
+        font-size: 2.3rem;
+      }
+    }
+  }
+
+  .eventWrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+
+    @include desktop-md() {
+      @include text("text-xl-regular");
+    }
+    svg {
+      font-size: 2rem;
+    }
+  }
+
+  .comment {
+    text-align: center;
+
+    @include desktop-md() {
+      @include text("text-xl-regular");
+    }
+  }
+
+  .imgWrapper {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  img {
+    border-radius: 6px;
+    width: 100%;
+  }
+}
+
+.buttonWrapper {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  @include desktop-md() {
+    flex-direction: row;
+    align-items: flex-start;
+    & > * {
+      flex-grow: 1;
+    }
+  }
+
+  button {
+    padding: 1.6rem;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    @include desktop-md() {
+      padding: 1.2rem;
+      @include text("text-md-regular");
+    }
+
+    &:first-of-type {
+      background-color: #f37022;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+        rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+      color: #ffff;
+    }
+
+    &:last-of-type {
+      background-color: #f6f6f6;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+        rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+      color: #313131;
+    }
+  }
+}
+
+.allWrapper {
+  @include desktop-md() {
+    max-width: 120rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

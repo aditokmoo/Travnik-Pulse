@@ -1,0 +1,137 @@
+{
+	"main_page_navbar": {
+		"links": {
+			"1": "Dashboard",
+			"2": "Karte",
+			"3": "Geschäfte",
+			"4": "Kalender",
+			"5": "Einstellungen",
+			"login": "Anmelden",
+			"admin": "Admin"
+		}
+	},
+	"main_page_hotels": {
+		"text": "von dir"
+	},
+	"main_page_mobile_h1_text": "Wir haben einen Schlafplatz für dich gefunden",
+	"main_page_desktop_text": {
+		"h1_text": "Willkommen in Travnik",
+		"h2_text": "Stadt guter Menschen und gutem Essen!",
+		"button_text": "Travnik erkunden",
+		"event_of_choice": "Event unserer Wahl"
+	},
+	"preferences": {
+		"links": {
+			"0": "Hinzufügen",
+			"1": "Essen",
+			"2": "Nachtleben",
+			"3": "Kunst",
+			"4": "Geschichte",
+			"5": "Museen",
+			"6": "Filme",
+			"7": "Musik",
+			"8": "Kultur",
+			"9": "Parks",
+			"10": "Wissenschaft",
+			"11": "Sport"
+		},
+		"save_button_text": "Speichern",
+		"cancel_button_text": "Abbrechen"
+	},
+	"main_page_tour_details": {
+		"no_tours": "Keine Touren für diese Kategorie",
+		"free_text": "KOSTENLOS",
+		"expired": "ABGELAUFEN",
+		"rate_tour": "Tour bewerten",
+		"view_location_text": "Standort auf Karte anzeigen",
+		"review_button_text": "Eine Bewertung hinterlassen",
+		"bookmark_button_text": "Diese Aktivität als Lesezeichen setzen",
+		"activity_bookmarked": "Aktivität als Lesezeichen gesetzt",
+		"review_form": {
+			"h1_text": "Deine Bewertung ist unglaublich hilfreich, danke dir",
+			"message_label_text": "Nachricht",
+			"message_input_placeholder": "Deine Nachricht",
+			"images_label_text": "Bilder anhängen",
+			"button_text": "Bewertung abschicken"
+		}
+	},
+	"main_page_map": {
+		"nav_links": {
+			"1": "Alle",
+			"2": "Radius",
+			"3": "Veranstaltungen",
+			"4": "Hotels",
+			"5": "Geschäfte"
+		},
+		"radius_placeholder": "Radius in km eingeben",
+		"set_button_text": "Setzen",
+		"popup_details": {
+			"direction_button_text": "Wegbeschreibung",
+			"see_more_button_text": "Mehr anzeigen",
+			"overview_text": "ÜBERSICHT",
+			"overview_route_calculate": "Route starten, um zu berechnen",
+			"overview_price_free": "KOSTENLOS"
+		}
+	},
+	"main_page_calendar": {
+		"events_text": "Veranstaltungen"
+	},
+	"main_page_settings": {
+		"h3_text": "Allgemeine Einstellungen",
+		"links": {
+			"1": "Mein Profil",
+			"2": "Sprache ändern",
+			"3": "Einstellungen ändern",
+			"4": "Einstellungen zurücksetzen",
+			"5": "Vorschläge deaktivieren",
+			"6": "Vorschläge aktivieren",
+			"7": "Abmelden"
+		},
+		"reset_modal": {
+			"text": "Sind Sie sicher, dass Sie alle Einstellungen zurücksetzen möchten (Präferenzen, Standort usw.)?",
+			"yes": "JA",
+			"no": "NEIN"
+		}
+		
+	},
+	"main_page_shop": {
+		"preferences": {
+			"1": "Kleidung",
+			"2": "Souvenir",
+			"3": "Kunst",
+			"4": "Buchhandlungen",
+			"5": "Schmuck",
+			"6": "Zuhause",
+			"7": "Elektronik",
+			"8": "Lebensmittel",
+			"9": "Lebensmittelgeschäft",
+			"10": "Musik",
+			"11": "Schönheit",
+			"12": "Spielzeug",
+			"13": "Sport",
+			"14": "Haustiere",
+			"15": "Technologie",
+			"16": "Schuhgeschäfte",
+			"17": "Gesundheit",
+			"18": "Blumenläden"
+		}
+	},
+	"main_page_login": {
+		"h1_text": "Willkommen zurück!",
+		"p_text": "Melden Sie sich an, um eine Bewertung zu veröffentlichen und den Ort zu bewerten, an dem Sie waren.",
+		"username_label_text": "Benutzername",
+		"username_placeholder_text": "johndoe",
+		"password_label_text": "Passwort",
+		"login_button_text": "Anmelden",
+		"create_account_text": "Konto erstellen"
+	},
+	"main_page_register": {
+		"h1_text": "Neues Konto erstellen",
+		"p_text": "Wenn Sie noch keins haben, können Sie gerne ein neues Konto erstellen, indem Sie ein einfaches Formular ausfüllen.",
+		"username_label_text": "Benutzername",
+		"username_placeholder_text": "johndoe",
+		"password_label_text": "Passwort",
+		"confirm_pass_label_text": "Passwort bestätigen",
+		"register_button_text": "Konto erstellen"
+	}	
+}

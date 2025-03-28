@@ -1,0 +1,145 @@
+{
+	"profile_page_home": {
+		"h1_text": "You’re logged in as administrator",
+		"p_text": "Select action which you want to use in admin dashboard to add, edit, remove events.",
+		"links": {
+			"main_link_text": {
+				"1": "Events",
+				"2": "Reviews",
+				"3": "Shops"
+			},
+			"sub_link_text": {
+				"1": "events in total",
+				"2": "reviews waiting for approval",
+				"3": "shops in total"
+			}
+		}
+	},
+	"profile_events_page": {
+		"no_events": "No tours on this date! Start creating some by clicking on plus icon.",
+		"form_create_edit": {
+			"h1_text_create": "Create event",
+			"h1_text_edit": "Edit event",
+			"title_label_text": "Title",
+			"title_placeholder_text": "Title goes here",
+			"title_error_text": "Provide title of your activity",
+			"categories_label_text": "Categories",
+			"preferences": {
+				"1": "Food",
+				"2": "Nightlife",
+				"3": "Art",
+				"4": "History",
+				"5": "Museums",
+				"6": "Movies",
+				"7": "Music",
+				"8": "Culture",
+				"9": "Parks",
+				"10": "Science",
+				"11": "Sport"
+			},
+			"select_time_label_text": "Select time",
+			"duration_label_text": "Duration (in minutes)",
+			"duration_error_text": "Provide duration of your activity",
+			"price_label_text": "Price",
+			"description_label_text": "Description",
+			"description_error_text": "Provide description of activity",
+			"cover_image_label": "Cover Image",
+			"choose_cover_error_text": "Provide cover image of activity",
+			"choose_cover_image": "Choose cover image",
+			"choose_activity_location": "Choose location of activity",
+			"submit_button_text": "Save changes"
+		}
+	},
+	"profile_reviews_page": {
+		"h1_text": "Reviews",
+		"p_text": "Check how people reviewed the events, and approve their reviews",
+		"no_reviews": "No reviews for now 😢! Comeback later.",
+		"left_a_review_message": "left a review on tour",
+		"review": {
+			"h1_text": "Review",
+			"p_text": "Approve or decline review request",
+			"approve_button_text": "Approve review",
+			"decline_button_text": "Decline review"
+		}
+	},
+	"profile_shop_page": {
+		"h1_text": "Shops",
+		"preferences": {
+			"1": "Clothing",
+			"2": "Souvenir",
+			"3": "Art",
+			"4": "Bookstores",
+			"5": "Jewelry",
+			"6": "Home",
+			"7": "Electronis",
+			"8": "Food",
+			"9": "Grocery",
+			"10": "Music",
+			"11": "Beauty",
+			"12": "Toys",
+			"13": "Sports",
+			"14": "Pets",
+			"15": "Technology",
+			"16": "Shoe stores",
+			"17": "Health",
+			"18": "Florists"
+		},
+		"form_create": {
+			"h1_text": "Create Shop",
+			"shop_name_label": "Add shop name",
+			"shop_name_placeholder": "ex Pekara Kabil",
+			"shop_category_label": "Add shop category",
+			"preferences": {
+				"1": "Clothing",
+				"2": "Souvenir",
+				"3": "Art",
+				"4": "Bookstores",
+				"5": "Jewelry",
+				"6": "Home",
+				"7": "Electronis",
+				"8": "Food",
+				"9": "Grocery",
+				"10": "Music",
+				"11": "Beauty",
+				"12": "Toys",
+				"13": "Sports",
+				"14": "Pets",
+				"15": "Technology",
+				"16": "Shoe stores",
+				"17": "Health",
+				"18": "Florists"
+			},
+			"cover_image_label": "Cover image",
+			"attach_image_label": "Attach image",
+			"shop_location_label": "Add shop location",
+			"create_shop_button_text": "Create shop"
+		},
+		"form_edit": {
+			"h1_text": "Edit Shop",
+			"title_label": "Title",
+			"add_shop_category": "Add shop category",
+			"cover_image_label": "Cover Image",
+			"choose_cover_image": "Choose cover image",
+			"choose_location": "Choose location of shop",
+			"save_button_text": "Save changes"
+		},
+		"delete_message": {
+			"tour": "Are you sure that you want to delete tour",
+			"shop": "Are you sure you want to delete",
+			"yes": "YES",
+			"no": "NO",
+			"deleting": "Deleting..."
+		}
+	},
+    "client_home": {
+        "hi_text": "Hi",
+        "welcome_back_text": "welcome back!",
+        "no_review_rating": "Once you start giving reviews to activities, or rating them, your activity will be tracked here!",
+        "no_rating": "Once you start rating activities, they will show up here!",
+        "h1_review_message": "Please, have a insight on what you’ve reviewed.",
+        "h1_rated_message": "Take a look at tours you have rated",
+        "bookmarked_text": "Bookmarked activities",
+        "approved": "APPROVED BY ADMIN",
+        "under_review": "UNDER REVIEW"
+    }
+}

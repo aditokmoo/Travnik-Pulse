@@ -1,0 +1,74 @@
+@import "../../styles/variables.scss";
+@import "../../styles/mixin.scss";
+
+.tour {
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0px 0px 20px -9px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 20px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 20px -9px rgba(0, 0, 0, 0.75);
+
+  @include desktop() {
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20rem;
+    position: relative;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+
+    @include desktop() {
+      height: 40rem;
+    }
+    .imageOverlay {
+      border-top-right-radius: 1rem;
+      border-top-left-radius: 1rem;
+
+      background: linear-gradient(
+        to right,
+        rgba(255, 126, 95, 0.5),
+        rgba(254, 180, 123, 0.5)
+      );
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+    }
+
+    .imageContent {
+      position: absolute;
+      padding: 2rem;
+      bottom: 2rem;
+      color: #fff;
+      @include text("text-xl-bold");
+
+      h2 {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
+
+.sectionBody {
+  padding: 0rem 2rem 10rem 2rem;
+
+  @include desktop-md() {
+    height: 100dvh;
+  }
+}
+
+.container {
+  padding: 2rem;
+  @include desktop-md() {
+    max-width: 120rem;
+    margin-left: auto;
+    padding: 2rem;
+    margin-right: auto;
+  }
+}

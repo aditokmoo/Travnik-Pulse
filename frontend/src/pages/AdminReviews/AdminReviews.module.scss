@@ -1,0 +1,41 @@
+@import "../../styles/mixin.scss";
+
+.sectionBody {
+  padding: 10rem 3rem;
+
+  h2 {
+    @include text("text-xl-semibold");
+    @include desktop-md() {
+      max-width: 120rem;
+      margin: 0 auto;
+      @include text("display-xl-semibold");
+    }
+  }
+
+  .sectionParagraph {
+    @include text("text-md-medium");
+    @include desktop-md() {
+      max-width: 120rem;
+      margin: 0 auto;
+      @include text("display-xs-medium");
+      margin-bottom: 3rem;
+    }
+  }
+
+  .reviewsWrapper {
+    margin-top: 2rem;
+
+    @include desktop-lg() {
+      max-width: 120rem;
+      margin: 0 auto;
+    }
+  }
+
+  .noReviews {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+  }
+}

@@ -1,0 +1,111 @@
+@import "../../../styles/mixin.scss";
+
+.reviewTour {
+  padding: 2rem;
+  margin-bottom: 10rem;
+
+  h2 {
+    margin-bottom: 4rem;
+  }
+}
+
+.submitBtn {
+  padding: 1rem;
+  border-radius: 6px;
+  width: 100%;
+  margin-top: 2rem;
+  background-color: #f37022;
+  color: #fff;
+  border: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  transition: 0.2s;
+  @include text("text-sm-bold");
+  color: #fff;
+  svg {
+  }
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.cancelReview {
+  padding: 1rem 1.4rem;
+  border: none;
+  outline: none;
+  background-color: #f37022;
+  border-radius: 100px;
+
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+.form {
+  margin: 1rem 0;
+  width: 100%;
+
+  .stars {
+    margin: 5rem 0 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    .star {
+      font-size: 4rem;
+      color: #ddd;
+      cursor: pointer;
+
+      &:hover {
+        opacity: 0.5;
+      }
+
+      &.active {
+        color: #eed70b;
+      }
+    }
+  }
+
+  .inputContainer {
+    margin: 2rem 0;
+
+    label {
+      display: block;
+      margin-bottom: 1rem;
+      @include text("text-xl-semibold");
+    }
+
+    input,
+    textarea {
+      padding: 1.5rem;
+      outline: none;
+      border: 1px solid #ddd;
+      width: 100%;
+      border-radius: 0.6rem;
+      resize: none;
+      font-family: inherit;
+    }
+
+    .fileInput {
+      padding: 1.2rem 2rem;
+      border-radius: 1rem;
+      border: 1px solid #ddd;
+      color: #999;
+      position: relative;
+      @include text("text-lg-regular");
+
+      svg {
+        position: absolute;
+        right: 1.5rem;
+        top: 0.8rem;
+        bottom: 0;
+        font-size: 3.5rem;
+      }
+    }
+
+    .defaultFileInput {
+      display: none;
+    }
+  }
+}

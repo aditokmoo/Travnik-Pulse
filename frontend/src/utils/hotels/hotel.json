@@ -1,0 +1,279 @@
+{
+	"hotels": [
+		{
+      "type": "hotels",
+			"name": "Hotel Vezir Palace",
+			"rating": 4.6,
+			"stars": 4,
+			"location": {
+				"coordinates": [ 44.22954221734065, 17.670071442327863 ]
+			},
+      "coverImg": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/226684314.jpg?k=d0ce7f1352b9ad1b6da7e24c58b93920544cf78f94f29ee178b5f2f551eb1f59&o=&hp=1",
+			"pictures": [
+				"https://cf.bstatic.com/xdata/images/hotel/max1280x900/226684314.jpg?k=d0ce7f1352b9ad1b6da7e24c58b93920544cf78f94f29ee178b5f2f551eb1f59&o=&hp=1",
+				"https://cf.bstatic.com/xdata/images/hotel/max1280x900/209173779.jpg?k=bf9287ef54407e918f2cdffba932c260b2655c2c692c8660d060c77cd59fb0b4&o=&hp=1",
+				"https://cf.bstatic.com/xdata/images/hotel/max1280x900/209173902.jpg?k=29e42045495213ddbc8ab9608011d534ebf761f8d06b06bf38c02d8877ad1b84&o=&hp=1",
+				"https://cf.bstatic.com/xdata/images/hotel/max1024x768/226680162.jpg?k=7847adbb776467c4fe386c2ff15ff13d5d1cb13f5de7384e9b0c37dc68012a8b&o=&hp=1"
+			]
+		},
+
+		{
+      "type": "hotels",
+			"name": "Hotel Lipa",
+			"rating": 4.5,
+			"stars": 4,
+			"location": {
+				"coordinates": [44.227066763863796, 17.6610760117299]
+			},
+			"pictures": [
+				"https://cf.bstatic.com/xdata/images/hotel/max1024x768/414390753.jpg?k=426490ab5b6a3723cbc1a5fe42bd5a3633da1e4ed0f63e120b7d8cc8e909c9cc&o=&hp=1",
+				"https://cf.bstatic.com/xdata/images/hotel/max1280x900/415324652.jpg?k=1c970d80faaff6fdd8bd011796db65aed28d4ceb5002d96a0198839d5c035271&o=&hp=1",
+				"https://cf.bstatic.com/xdata/images/hotel/max1280x900/415334454.jpg?k=2641dbbf145ca1d46b59f03ddc3944ae6acd7aa9658210ccc722625d192f28ce&o=&hp=1",
+				"https://cf.bstatic.com/xdata/images/hotel/max1280x900/414390739.jpg?k=c723f7ea904c846bc4b36f9ddd39189f41d09de1ae623de98a2cd8e4f8ace5e0&o=&hp=1"
+			]
+		},
+
+		{
+      "type": "hotels",
+			"name": "Hotel IUT",
+			"rating": 4.7,
+			"stars": 3,
+			"location": {
+				"coordinates": [44.227028244786254, 17.646137481086075]
+			},
+			"pictures": [
+				"https://cf.bstatic.com/xdata/images/hotel/max1024x768/211274406.jpg?k=cc25e920cc371a5d8cebc28c93fe9d422bd76f84c4e593e82c78093eb95113ef&o=&hp=1",
+				"https://cf.bstatic.com/xdata/images/hotel/max1024x768/211455494.jpg?k=6682958a84ad3aa7a926c449d1a0408669b8cff1be460539c340e6ca28fd4a32&o=&hp=1",
+				"https://cf.bstatic.com/xdata/images/hotel/max1280x900/211469996.jpg?k=235634706713f949875116f2da5fc041cafcdc131ae8de075d3b5e499313644b&o=&hp=1",
+				"https://cf.bstatic.com/xdata/images/hotel/max1280x900/211465853.jpg?k=3147bf4bfa70edc68b61175771414c3b03ca52434a578e085427881f2374e926&o=&hp=1"
+			]
+		},
+
+		{
+      "type": "hotels",
+			"name": "Hotel Bajra",
+			"rating": 4.4,
+			"stars": 3,
+			"location": {
+				"coordinates": [44.218494778404825, 17.692888800000002]
+			},
+			"pictures": [
+				"https://cf.bstatic.com/xdata/images/hotel/max1024x768/320565207.jpg?k=aa87e6f7fbfc41b78d75a9d349a7e327416827ef10b8202f8c12b5570b2ed81a&o=&hp=1",
+				"https://cf.bstatic.com/xdata/images/hotel/max1024x768/320565203.jpg?k=f6656b6bc79efbd13505bf73db03de41bcef4d28e75d0550d69c227cbeabc0a2&o=&hp=1",
+				"https://cf.bstatic.com/xdata/images/hotel/max1024x768/343881329.jpg?k=16c42f4f3647a1486e69a6106b3dcfc211308bf13808e098b0a402e1a571bba8&o=&hp=1",
+				"https://cf.bstatic.com/xdata/images/hotel/max1280x900/320565189.jpg?k=da98c37e38108b98cb722ed711f9c5058437c9beffcd60b7df3e9059cdba11e7&o=&hp=1"
+			]
+		},
+		{
+      "type": "hotels",
+			"name": "Apartman UNA Travnik",
+			"rating": 5,
+			"location": {
+				"coordinates": [44.226920050363425, 17.667063616553186] 
+			},
+			"pictures": [
+				"https://cf2.bstatic.com/xdata/images/hotel/max1024x768/275751554.jpg?k=f9dd121ea8434d53ec68156e139e4f172673b183af7093b0a1980a1817e3e4e7&o=&hp=1",
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/466232535.jpg?k=87a32daf40b4f88a5c94debe30081e721fc8071903a6d9ff7a5df1529c34641a&o=&hp=1",
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/275751569.jpg?k=112bc738bacf71307f3a2dd7058d9202c058e25120ea5dca3facafcfe83f4518&o=&hp=1"
+			]
+		},
+		{
+      "type": "hotels",
+			"name": "MALM Travnik",
+			"rating": 5,
+			"location": {
+				"coordinates": [44.22417981946194, 17.663311282203296] 
+			},
+			"pictures": [
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/421986637.jpg?k=be10c3954846ebe36975033be183d9a03dbafb40ac638da007524978a17dd41e&o=&hp=1",
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/421988294.jpg?k=d31976fd81c928798798fc6d26151a1f6794e434d54803376ed9aa820c8d61fd&o=&hp=1",
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/421987239.jpg?k=7133ece60a35ba9846cf48c24dc63e948d291050e6d340051abdcb8edad00666&o=&hp=1",
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/421986687.jpg?k=1df0a3c0af9f059d27b0143e35777ed75e84b89ac93687f6398ad3060e5a3593&o=&hp=1"
+			]
+		},
+		{
+      "type": "hotels",
+			"name": "Panorama Travnik",
+			"rating": 4.7,
+			"location": {
+				"coordinates": [44.22752693212398, 17.673390344177637]
+			},
+			"pictures": [
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/347732451.jpg?k=e326ba4c2b2a66f0f9ced65e9d151a028c74c8155f952325a66597a060ebefa8&o=&hp=1",
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/465878011.jpg?k=c7169067a49c3d61c625f0111951c31d34884e5b12d2c3f14aa7b510279aa1ed&o=&hp=1",
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/347736261.jpg?k=bf364af56ea8f637b30fde5ced041fea2ee00c50784fa402be4b5e9bcfa6cd56&o=&hp=1",
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/347763005.jpg?k=183483e58463bf10bc0cf13a955a58bb8c3a727cd7bc5c26737823b76a3d01ca&o=&hp=1"
+			]
+		},
+		{
+      "type": "hotels",
+			"name": "Stari Grad Migy Travnik Apartman",
+			"rating": 5,
+			"location": {
+				"coordinates": [44.229851830041866, 17.670165184657893]
+			},
+			"pictures": [
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/314522311.jpg?k=8a7f025a44c33c258649e8341effd07dde6cfe986566e3fc9331c0b247d4517b&o=&hp=1",
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/314525226.jpg?k=0226b017c2509d556f566a16e1dba1ff9eea6543c218ef20e674ea3f42263afa&o=&hp=1",
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/300631153.jpg?k=7fde9c9fb8bbe35ed7a697711341f29ec61a2be451651863c77050b9eda9db6d&o=&hp=1",
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/219408321.jpg?k=7589bb0a10370b13e7f4cdd3ac400c9fc2e842a9801cdc8fa1ce57236b618993&o=&hp=1"
+			]
+		},
+
+		{
+      "type": "hotels",
+			"name": "Downtown Apartment Travnik",
+			"rating": 4.9,
+			"location": {
+				"coordinates": [44.22689145388291, 17.668652969315783]
+			},
+			"pictures": [
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/492733456.jpg?k=224b0f5aa958f361f92e058b56ed297b34f0fb4d971277aaddab9daa4388bd57&o=&hp=1",
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/433333008.jpg?k=67fbbf65b7cdaf43eba1275e212d7b1e23a0d2a691cc9b6e9e77838e999cd25e&o=&hp=1",
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/492732380.jpg?k=b15b31d4c83a260674c5717b6fa65c3a13dcaadc19777ae41dc52e9e3deb469d&o=&hp=1",
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/492729998.jpg?k=ec61d02d372d1b18900e288dd7fb95da982c3d4a0401d9817802279b70999876&o=&hp=1",
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/492732685.jpg?k=cca885ad3304213d597c1e6b787a02da42906272b9005928dec59f13d5e9983d&o=&hp=1"
+			]
+		},
+		{
+      "type": "hotels",
+			"name": "Apartment Adi",
+			"rating": 4.6,
+			"location": {
+				"coordinates": [44.226528223181234, 17.667008413275436]
+			},
+			"pictures": [
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/366542739.jpg?k=69293927bb508cd8d411a77dbdf6bb8538213494c2d98ad6a7d7fde6b3ee9af6&o=&hp=1",
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/113007303.jpg?k=b1e031f915a7121e69aa357c6999bd94a342c9586843bc51cf325933d87b5e6c&o=&hp=1",
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/309098153.jpg?k=7ca6d6c9cc1e7ce0b136ece6c8bf5d036d1723f277cc25b1c07ea12d4daf53f7&o=&hp=1",
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/113007330.jpg?k=c7cdba3af78dfc4237daa75be0b9535fff5badb7be6e287c534799f7c94463f8&o=&hp=1"
+			]
+		},
+		{
+      "type": "hotels",
+			"name": "Apartmani Venci",
+			"rating": 4.8,
+			"location": {
+				"coordinates": [44.227776963095316, 17.657204854985775]
+			},
+			"pictures": [
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/486806326.jpg?k=da722d4fbbd6098a8e8d2e72cc628052df4a8ced7b96222f0ee95e488c3381b7&o=&hp=1",
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/368601724.jpg?k=d70929bc79742893f2f425a6f8bbb6c90915d909238c2301ff7bc3f73c3446ad&o=&hp=1",
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/486807086.jpg?k=446638f8478dbdd510711124f22920371aef2858530b5b5f203352be495f8529&o=&hp=1",
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/486939359.jpg?k=e41e1b88ee1f6a5f85eea458067c889ec726258d5b93326ff95541fe27218645&o=&hp=1"
+			]
+		},
+		{
+      "type": "hotels",
+			"name": "Apartman HANA ",
+			"rating": 4.9,
+			"location": {
+				"coordinates": [44.22709305529647, 17.659709353145722]
+			},
+			"pictures": [
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/339025951.jpg?k=fdb0e219adcb96bde035fbd7293075589e54d47834599dce9f451ace9389dc72&o=&hp=1",
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/287973480.jpg?k=67151ddb2782390b129904293a144ee50b7602f561c3d87ca8d2b8ed39aef039&o=&hp=1",
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/287973479.jpg?k=bb5e99068b829d7776a329f5b1370346aaad2c6ba71e17f849cd25e4a4ea077f&o=&hp=1",
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/287973476.jpg?k=00b398d51740610ba2f1ffe36771b649fa4b4f454850250c377f8c735f53f619&o=&hp=1"
+			]
+		},
+		{
+      "type": "hotels",
+			"name": "Apartman DIN",
+			"rating": 4.6,
+			"location": {
+				"coordinates":[44.224801124712656, 17.666706299985822]
+			},
+			"pictures": [
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/287264949.jpg?k=546b2ae6d419e2819e2cf20c5e6350e6b0185fb416ff3af83a7f1d54b611b269&o=&hp=1",
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/285978834.jpg?k=3cbc3ee3425282159f88a029cc6e96813d4bd6f9a4646fb99074074ddb48e9d7&o=&hp=1",
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/285978839.jpg?k=4ce0482a58a551ccbfd88ed3aa572945dc9207332fff68f71d74c84e36cfd1c0&o=&hp=1",
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/285978841.jpg?k=757e14c4922a10cc48badc9a0df890d7a84489ab39d8bd66f7c1c28d624a8b28&o=&hp=1"
+			]
+		},
+		{
+      "type": "hotels",
+			"name": "Ozzy",
+			"rating": 5,
+			"location": {
+				"coordinates": [44.224953638442095, 17.66916612775729]
+			},
+			"pictures": [
+				"https://cf2.bstatic.com/xdata/images/hotel/max1024x768/303360958.jpg?k=6e0ad284dff163189e5e5ba85ca5c16fdc2cf1640851d145016b115d5dd4f01b&o=&hp=1",
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/303361065.jpg?k=a5bbf51e8bce81ed13aed32aad0c3096f90d9abc5b19d3a191ba4df17df7299f&o=&hp=1",
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/160483479.jpg?k=8eadd23d5a515520268c36185ff8aea6d0f1a34dbda4f19e946f98c150b4e183&o=&hp=1",
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/303360992.jpg?k=0947d56c0ab756136210d2e6d31346e40678b8a8d5549d48a60d4ea04c767e29&o=&hp=1"
+			]
+		},
+		{
+      "type": "hotels",
+			"name": "Kod Lipe",
+			"rating": 5,
+			"location": {
+				"coordinates": [44.226926677123664, 17.66016371395237]
+			},
+			"pictures": [
+				"https://cf2.bstatic.com/xdata/images/hotel/max1024x768/298642375.jpg?k=3812b5b63ea8907bdadfec687f9fefd9187dbbd30e8cc639dbeb7f58ee5147da&o=&hp=1",
+				"https://cf2.bstatic.com/xdata/images/hotel/max1024x768/298642379.jpg?k=a22afa9e5c651b64c5dbabed28ce70cc52fb48cb49718179e3e0f90fb7720c1e&o=&hp=1",
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/298642393.jpg?k=e4824fa4e83567c8f051594acaa7a1fbf3935e9aa50fdd5ca026428fce511b65&o=&hp=1",
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/298642390.jpg?k=9a2ca025a4742d406e1f82eef8a7490c2d4df1bd59a33fa7462367a12ecb9ca9&o=&hp=1"
+			]
+		},
+		{
+      "type": "hotels",
+			"name": "Apartment Poturmahala",
+			"rating": 4.5,
+			"location": {
+				"coordinates": [44.22857085980857, 17.665615821946957]
+			},
+			"pictures": [
+				"https://cf2.bstatic.com/xdata/images/hotel/max1024x768/306574354.jpg?k=1c823e86737d40b6de57018a262dc90d3f78619431625057c223366a507b7f6b&o=&hp=1",
+				"https://cf2.bstatic.com/xdata/images/hotel/max1024x768/468779448.jpg?k=ac799e089f66da97e7c6bd6d9040116f4a9a44d11f9b973cbeae758386e91733&o=&hp=1",
+				"https://cf2.bstatic.com/xdata/images/hotel/max1024x768/306576297.jpg?k=ab8316db7410d9c8cea036e04befd21c8ff3cec16371e37e72b628cdaa6432f1&o=&hp=1",
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/306578347.jpg?k=be376a188e0bac0633786f2b36dda93f3f9906f8e03dadf36e089c9ad79e5f0e&o=&hp=1"
+			]
+		},
+		{
+      "type": "hotels",
+			"name": "Apartment YESA",
+			"rating": 5,
+			"location": {
+				"coordinates": [44.227197155283996, 17.657676475232407]
+			},
+			"pictures": [
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/412443806.jpg?k=143ff097c33dba2002fb81a59332ef55e8239b232a5992d47cf617c5b71616b6&o=&hp=1",
+				"https://cf2.bstatic.com/xdata/images/hotel/max1024x768/412443318.jpg?k=e45532d6f50d5d9535b8c0b9bc25f7cccea52a888f87012c299e56d002168109&o=&hp=1",
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/372753843.jpg?k=feb451723884d43343b2e10cd54694a5d45e34815eb2f1febc4e1f89afb08718&o=&hp=1",
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/412444702.jpg?k=c074458a8fbeefe8de3579eeb7a4e5004b9670e75602d75d841c05e19554b167&o=&hp=1"
+			]
+		},
+		{
+      "type": "hotels",
+			"name": "Mini apartman Smile",
+			"rating": 5,
+			"location": {
+				"coordinates":[44.227237353090466, 17.6650123689414]
+			},
+			"pictures": [
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/479991586.jpg?k=b05cb18b2cc082e74033ce33c15c99e074981b9b5240e5cb7f3dcca156b37d53&o=&hp=1",
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/374346299.jpg?k=db61a6876474cf59e512f7918e4aaf294f77249e7b8d73932827ff39d42f3be1&o=&hp=1",
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/343162677.jpg?k=f30d5c81063f2989fc77debd90b5943db008c09f2b7333d9bda96ab2ce8ec8ed&o=&hp=1",
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/477244900.jpg?k=1443a4bcb978d0b86755f7bb40aaa7082f42e9e960445ef26aea97eb488ab704&o=&hp=1"
+			]
+		},
+		{
+      "type": "hotels",
+			"name": "Apartment Vremeplov",
+			"rating": 4.7,
+			"location": {
+				"coordinates": [44.227312822615815, 17.670134697763306]
+			},
+			"pictures": [
+				"https://cf2.bstatic.com/xdata/images/hotel/max1024x768/87254405.jpg?k=93fa97a46aa0bb3eb9737934f849c73b9301073f28725d44476448e20450d3ec&o=&hp=1",
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/87253907.jpg?k=0105a1c8218ed7dd529cf8c0c05c31607fb0b819bded2db7c0a221d0b6599f29&o=&hp=1",
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/87255646.jpg?k=97b25457fbd98c79e2c37d686391c08ea41cdc2803d7547bc27d42450f8bdd29&o=&hp=1",
+				"https://cf2.bstatic.com/xdata/images/hotel/max1280x900/87254316.jpg?k=da877093163719bef82a0dabb005c3eea25ad8e9924945a8814b11e8092854d9&o=&hp=1"
+			]
+		}
+	]
+}

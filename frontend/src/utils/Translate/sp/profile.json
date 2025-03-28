@@ -1,0 +1,144 @@
+{
+    "profile_page_home": {
+        "h1_text": "Has iniciado sesión como administrador",
+        "p_text": "Selecciona la acción que deseas utilizar en el panel de administración para agregar, editar o eliminar eventos.",
+        "links": {
+            "main_link_text": {
+                "1": "Eventos",
+                "2": "Reseñas",
+                "3": "Tiendas"
+            },
+            "sub_link_text": {
+                "1": "eventos en total",
+                "2": "reseñas pendientes de aprobación",
+                "3": "tiendas en total"
+            }
+        }
+    },
+    "profile_events_page": {
+        "no_events": "¡No hay tours en esta fecha! Comienza creando algunos haciendo clic en el icono de más.",
+        "form_create_edit": {
+            "h1_text_create": "Crear evento",
+            "h1_text_edit": "Editar evento",
+            "title_label_text": "Título",
+            "title_placeholder_text": "Ingrese el título aquí",
+            "title_error_text": "Proporciona el título de tu actividad",
+            "categories_label_text": "Categorías",
+            "preferences": {
+                "1": "Comida",
+                "2": "Vida nocturna",
+                "3": "Arte",
+                "4": "Historia",
+                "5": "Museos",
+                "6": "Películas",
+                "7": "Música",
+                "8": "Cultura",
+                "9": "Parques",
+                "10": "Ciencia",
+                "11": "Deporte"
+            },
+            "select_time_label_text": "Seleccionar hora",
+            "duration_label_text": "Duración (en minutos)",
+            "duration_error_text": "Proporciona la duración de tu actividad",
+            "price_label_text": "Precio",
+            "description_label_text": "Descripción",
+            "description_error_text": "Proporciona una descripción de la actividad",
+            "cover_image_label": "Imagen de portada",
+            "choose_cover_error_text": "Proporciona una imagen de portada de la actividad",
+            "choose_cover_image": "Seleccionar imagen de portada",
+            "choose_activity_location": "Seleccionar ubicación de la actividad",
+            "submit_button_text": "Guardar cambios"
+        }
+    },
+    "profile_reviews_page": {
+        "h1_text": "Reseñas",
+        "p_text": "Verifica cómo las personas revisaron los eventos y aprueba sus reseñas.",
+        "no_reviews": "No hay reseñas por ahora 😢. Vuelve más tarde.",
+        "left_a_review_message": "dejó una reseña en el tour",
+        "review": {
+            "h1_text": "Reseña",
+            "p_text": "Aprueba o rechaza la solicitud de reseña",
+            "approve_button_text": "Aprobar reseña",
+            "decline_button_text": "Rechazar reseña"
+        }
+    },
+    "profile_shop_page": {
+        "h1_text": "Tiendas",
+        "preferences": {
+            "1": "Ropa",
+            "2": "Souvenirs",
+            "3": "Arte",
+            "4": "Librerías",
+            "5": "Joyería",
+            "6": "Hogar",
+            "7": "Electrónica",
+            "8": "Comida",
+            "9": "Comestibles",
+            "10": "Música",
+            "11": "Belleza",
+            "12": "Juguetes",
+            "13": "Deportes",
+            "14": "Mascotas",
+            "15": "Tecnología",
+            "16": "Tiendas de zapatos",
+            "17": "Salud",
+            "18": "Florerías"
+        },
+        "form_create": {
+            "h1_text": "Crear tienda",
+            "shop_name_label": "Agregar nombre de la tienda",
+            "shop_name_placeholder": "ej. Panadería Kabil",
+            "shop_category_label": "Agregar categoría de la tienda",
+            "preferences": {
+                "1": "Ropa",
+                "2": "Recuerdo",
+                "3": "Arte",
+                "4": "Librerías",
+                "5": "Joyería",
+                "6": "Hogar",
+                "7": "Electrónica",
+                "8": "Comida",
+                "9": "Comestibles",
+                "10": "Música",
+                "11": "Belleza",
+                "12": "Juguetes",
+                "13": "Deportes",
+                "14": "Mascotas",
+                "15": "Tecnología",
+                "16": "Tiendas de zapatos",
+                "17": "Salud",
+                "18": "Florerías"
+            },
+            "cover_image_label": "Imagen de portada",
+            "attach_image_label": "Adjuntar imagen",
+            "shop_location_label": "Agregar ubicación de la tienda",
+            "create_shop_button_text": "Crear tienda"
+        },
+        "form_edit": {
+            "h1_text": "Editar tienda",
+            "title_label": "Título",
+            "add_shop_category": "Agregar categoría de la tienda",
+            "cover_image_label": "Imagen de portada",
+            "choose_cover_image": "Seleccionar imagen de portada",
+            "choose_location": "Seleccionar ubicación de la tienda",
+            "save_button_text": "Guardar cambios" 
+        },
+        "delete_message": {
+            "tour": "¿Estás seguro de que quieres eliminar el tour",
+            "shop": "¿Estás seguro de que quieres eliminar",
+            "yes": "SÍ",
+            "no": "NO",
+            "deleting": "Eliminando..."
+        }
+    },
+    "client_home": {
+        "hi_text": "Hola",
+        "welcome_back_text": "¡Bienvenido de nuevo!",
+        "no_review": "Una vez que comiences a dar opiniones sobre actividades o calificarlas, tus actividades serán rastreadas aquí.",
+        "h1_review_message": "Por favor, echa un vistazo a lo que has revisado.",
+        "h1_rated_message": "Echa un vistazo a los tours que has calificado.",
+        "bookmarked_text": "Actividades marcadas",
+        "approved": "APROBADO POR ADMINISTRADOR",
+        "under_review": "EN REVISIÓN"
+    }
+}

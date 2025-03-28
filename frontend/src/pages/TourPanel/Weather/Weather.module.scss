@@ -1,0 +1,66 @@
+@import "../../../styles/mixin.scss";
+.weatherSection {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 2rem;
+  position: relative;
+  height: 10.4rem;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  @include text("text-xl-regular");
+
+  @include desktop-md() {
+    display: none;
+  }
+
+  .weatherOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    background-color: rgba($color: #5489ce, $alpha: 0.6);
+  }
+
+  .left {
+    position: relative;
+    z-index: 2;
+
+    p {
+      line-height: 1.4;
+
+      &:first-child {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        @include text("text-xl-regular");
+
+        svg {
+          @include text("text-md-regular");
+        }
+      }
+    }
+
+    .temperature {
+      font-size: 4.5rem;
+      font-weight: bold;
+    }
+  }
+
+  .right {
+    position: relative;
+    z-index: 2;
+    font-family: Montserrat;
+    text-align: right;
+    @include text("text-lg-regular");
+
+    .weatherSymbol {
+      width: 3rem;
+    }
+  }
+}

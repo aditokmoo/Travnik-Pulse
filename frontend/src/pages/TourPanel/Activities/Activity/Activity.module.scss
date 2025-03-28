@@ -1,0 +1,32 @@
+@import "../../../../styles/mixin.scss";
+
+.activity {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 20rem;
+
+  border-radius: 1rem;
+  color: #fff;
+  position: relative;
+
+  .activityOverlay {
+    background: linear-gradient(
+      to right,
+      rgba(255, 126, 95, 0.5),
+      rgba(254, 180, 123, 0.5)
+    );
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+  }
+
+  .content {
+    position: absolute;
+    padding: 1rem;
+    bottom: 1rem;
+  }
+}

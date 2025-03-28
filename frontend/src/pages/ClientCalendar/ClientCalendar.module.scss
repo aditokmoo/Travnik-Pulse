@@ -1,0 +1,57 @@
+@import "../../styles/mixin.scss";
+.dateBox {
+  gap: 1rem;
+  align-items: center;
+  height: 10rem;
+  border-radius: 5px;
+  background: #fff;
+  border: none;
+  margin-left: none !important;
+  margin-inline: none !important;
+  width: 100%;
+  outline: none;
+
+  @include text("text-xs-medium");
+  color: #9b9b9b;
+  /* Shadow sm */
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.06),
+    0px 1px 3px 0px rgba(16, 24, 40, 0.1);
+
+  justify-content: center;
+
+  img {
+    max-width: 3rem;
+    height: 3rem;
+    border-radius: 100px;
+
+    margin-right: -1rem;
+  }
+
+  .imgWrapper {
+    display: flex;
+    justify-content: center;
+    margin: 0.3rem 0;
+  }
+}
+
+.calendarWrapper {
+  margin-top: 5rem;
+  @include desktop-md() {
+    max-width: 120rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8rem;
+  }
+}
+
+.today {
+  border: none;
+  outline: none;
+
+  background-color: #f37022;
+  color: #ffff;
+}
+
+.haveEvent {
+  background-color: rgba(#f37022, 0.3);
+}

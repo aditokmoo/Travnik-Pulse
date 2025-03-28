@@ -1,0 +1,49 @@
+@import "../../styles/mixin.scss";
+.preferenceWrapper {
+  max-width: 33.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+  padding: 1rem;
+  gap: 1.5rem;
+  margin-top: 1rem;
+
+  width: 100%;
+  height: 30rem;
+  overflow-y: scroll;
+  position: relative;
+  &::-webkit-scrollbar {
+    background-color: #ffff;
+    width: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #f37022;
+    border-radius: 5px;
+  }
+
+  div {
+    border: 3px solid rgba(#fff, 0);
+    cursor: pointer;
+    border-radius: 6px;
+    box-shadow: 0px 2px 4px -2px rgba(16, 24, 40, 0.06),
+      0px 4px 8px -2px rgba(16, 24, 40, 0.1);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 3rem;
+    @include text("text-md-bold");
+    padding: 1rem 2rem;
+    justify-content: center;
+  }
+}
+
+.activeOption {
+  background-color: #f37022 !important;
+  color: #ffff !important;
+  border: 3px solid rgba(#f37022, 0.3) !important;
+}

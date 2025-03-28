@@ -1,0 +1,121 @@
+@import "../../../styles/mixin.scss";
+.sectionBody {
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .panel {
+    max-width: 33.5rem;
+
+    h2 {
+      @include text("display-sm-bold");
+      margin-bottom: 1rem;
+    }
+
+    p {
+      @include text("text-md-semibold");
+      margin-bottom: 4rem;
+    }
+  }
+
+  .dateWrapper {
+    span {
+      @include text("text-md-semibold");
+    }
+  }
+  .touristCountWrapper {
+    margin-top: 2rem;
+    span {
+      @include text("text-md-semibold");
+    }
+  }
+
+  button {
+    font-size: 2.4rem;
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    align-items: center;
+    gap: 10px;
+    border-radius: 95px;
+    background-color: #f7f2f2;
+    border: none;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 1rem;
+
+  gap: 1.5rem;
+
+  div {
+    border: 3px solid rgba(#fff, 0);
+    cursor: pointer;
+    border-radius: 6px;
+    box-shadow: 0px 2px 4px -2px rgba(16, 24, 40, 0.06),
+      0px 4px 8px -2px rgba(16, 24, 40, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    @include text("text-md-bold");
+    padding: 1rem 2rem;
+    justify-content: center;
+  }
+}
+
+.activeOption {
+  background-color: #f37022 !important;
+  color: #ffff !important;
+  border: 3px solid #ffc5c1 !important;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  border-radius: 6px;
+  box-shadow: 0px 2px 4px rgba(#000, 0.2);
+}
+
+.checkboxActive {
+  color: #ffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f37022;
+  position: relative;
+  &::before {
+    content: "✓";
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+.checkboxWrapper {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.optionWrapper {
+  display: flex;
+  gap: 2rem;
+  button {
+    transition: all 0.2s ease;
+    border-radius: 4px;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+
+    &:hover {
+      background-color: #f37022;
+      color: #fff;
+    }
+  }
+}

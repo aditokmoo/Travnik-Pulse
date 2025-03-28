@@ -1,0 +1,72 @@
+@import "../../../styles/mixin.scss";
+.section {
+  padding: 10rem 3rem 3rem 3rem;
+
+  h2 {
+    @include desktop() {
+      max-width: 120rem;
+      margin: 0 auto;
+      @include text("display-xl-medium");
+    }
+  }
+
+  p {
+    @include desktop() {
+      max-width: 120rem;
+      margin: 0 auto;
+      margin-bottom: 3rem;
+      @include text("text-xl-medium");
+    }
+  }
+}
+
+.linksWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+
+  @include desktop-md() {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 120rem;
+    margin: 0 auto;
+  }
+
+  a {
+    padding: 2rem;
+    box-shadow: 0px 2px 4px -2px rgba(16, 24, 40, 0.06),
+      0px 4px 8px -2px rgba(16, 24, 40, 0.1);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    position: relative;
+    span:first-of-type {
+      @include text("text-sm-bold");
+      color: #ddd0d0;
+    }
+
+    .eventTitle {
+      @include text("text-xl-bold");
+      color: #674747;
+
+      @include desktop-md() {
+        @include text("text-2xl-bold");
+      }
+    }
+
+    .itemLength {
+      @include text("text-sm-semibold");
+      color: #b39898;
+    }
+
+    svg {
+      position: absolute;
+      right: 2rem;
+      font-size: 5rem;
+      color: #674747;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+}

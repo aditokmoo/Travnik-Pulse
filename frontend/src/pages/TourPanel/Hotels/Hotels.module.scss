@@ -1,0 +1,44 @@
+@import "../../../styles/mixin.scss";
+@import "../../../styles/variables.scss";
+
+.hotels {
+  margin: 2rem 0;
+  height: 100%;
+
+  .mainTitle {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0 2rem 0;
+  }
+
+  .hotelWrapper {
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    gap: 2rem;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    @include desktop-md() {
+      width: 100%;
+      padding-bottom: 4rem !important;
+
+      &::-webkit-scrollbar {
+        display: block !important;
+        background-color: rgba($color-primary-red, 0.1);
+        width: 6px;
+        height: 6px;
+        border-radius: 6px;
+      }
+      &::-webkit-scrollbar-thumb {
+        background-color: $color-primary-red; /* Set the color of the scrollbar thumb */
+
+        border-radius: 6px; /* Optional: Rounded corners for the thumb */
+        cursor: pointer;
+      }
+    }
+  }
+}

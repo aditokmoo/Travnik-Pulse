@@ -1,0 +1,12 @@
+@import "../../styles/mixin.scss";
+.shopWrapper {
+  padding: 0 2rem;
+}
+
+.container {
+  @include desktop-md() {
+    max-width: 120rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

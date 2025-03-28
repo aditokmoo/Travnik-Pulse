@@ -1,0 +1,144 @@
+{
+	"profile_page_home": {
+		"h1_text": "Sie sind als Administrator angemeldet",
+		"p_text": "Wählen Sie die Aktion aus, die Sie im Administrationsdashboard verwenden möchten, um Ereignisse hinzuzufügen, zu bearbeiten oder zu entfernen.",
+		"links": {
+			"main_link_text": {
+				"1": "Ereignisse",
+				"2": "Bewertungen",
+				"3": "Geschäfte"
+			},
+			"sub_link_text": {
+				"1": "Ereignisse insgesamt",
+				"2": "Bewertungen warten auf Genehmigung",
+				"3": "Geschäfte insgesamt"
+			}
+		}
+	},
+	"profile_events_page": {
+		"no_events": "Keine Touren an diesem Datum! Beginnen Sie mit der Erstellung, indem Sie auf das Plus-Symbol klicken.",
+		"form_create_edit": {
+			"h1_text_create": "Ereignis erstellen",
+			"h1_text_edit": "Ereignis bearbeiten",
+			"title_label_text": "Titel",
+			"title_placeholder_text": "Titel hier eingeben",
+			"title_error_text": "Geben Sie den Titel Ihrer Aktivität an",
+			"categories_label_text": "Kategorien",
+			"preferences": {
+				"1": "Essen",
+				"2": "Nachtleben",
+				"3": "Kunst",
+				"4": "Geschichte",
+				"5": "Museen",
+				"6": "Filme",
+				"7": "Musik",
+				"8": "Kultur",
+				"9": "Parks",
+				"10": "Wissenschaft",
+				"11": "Sport"
+			},
+			"select_time_label_text": "Zeit auswählen",
+			"duration_label_text": "Dauer (in Minuten)",
+			"duration_error_text": "Geben Sie die Dauer Ihrer Aktivität an",
+			"price_label_text": "Preis",
+			"description_label_text": "Beschreibung",
+			"description_error_text": "Geben Sie eine Beschreibung der Aktivität an",
+			"cover_image_label": "Titelbild",
+			"choose_cover_error_text": "Geben Sie das Titelbild der Aktivität an",
+			"choose_cover_image": "Titelbild auswählen",
+			"choose_activity_location": "Standort der Aktivität wählen",
+			"submit_button_text": "Änderungen speichern"
+		}
+	},
+	"profile_reviews_page": {
+		"h1_text": "Bewertungen",
+		"p_text": "Überprüfen Sie, wie Leute die Ereignisse bewertet haben, und genehmigen Sie ihre Bewertungen.",
+		"no_reviews": "Keine Bewertungen im Moment 😢! Kommen Sie später wieder.",
+		"left_a_review_message": "hat eine Bewertung zur Tour hinterlassen",
+		"review": {
+			"h1_text": "Bewertung",
+			"p_text": "Genehmigen oder ablehnen Sie die Bewertungsanfrage",
+			"approve_button_text": "Bewertung genehmigen",
+			"decline_button_text": "Bewertung ablehnen"
+		}
+	},
+	"profile_shop_page": {
+		"h1_text": "Geschäfte",
+		"preferences": {
+			"1": "Kleidung",
+			"2": "Souvenirs",
+			"3": "Kunst",
+			"4": "Buchhandlungen",
+			"5": "Schmuck",
+			"6": "Zuhause",
+			"7": "Elektronik",
+			"8": "Lebensmittel",
+			"9": "Lebensmittelgeschäft",
+			"10": "Musik",
+			"11": "Schönheit",
+			"12": "Spielzeug",
+			"13": "Sport",
+			"14": "Haustiere",
+			"15": "Technologie",
+			"16": "Schuhgeschäfte",
+			"17": "Gesundheit",
+			"18": "Blumenläden"
+		},
+		"form_create": {
+			"h1_text": "Geschäft erstellen",
+			"shop_name_label": "Geschäftsname hinzufügen",
+			"shop_name_placeholder": "z. B. Bäckerei Kabil",
+			"shop_category_label": "Geschäftskategorie hinzufügen",
+			"preferences": {
+				"1": "Kleidung",
+				"2": "Souvenir",
+				"3": "Kunst",
+				"4": "Buchhandlungen",
+				"5": "Schmuck",
+				"6": "Zuhause",
+				"7": "Elektronik",
+				"8": "Lebensmittel",
+				"9": "Lebensmittelgeschäft",
+				"10": "Musik",
+				"11": "Schönheit",
+				"12": "Spielzeug",
+				"13": "Sport",
+				"14": "Haustiere",
+				"15": "Technologie",
+				"16": "Schuhgeschäfte",
+				"17": "Gesundheit",
+				"18": "Blumenläden"
+			},
+			"cover_image_label": "Titelbild",
+			"attach_image_label": "Bild anhängen",
+			"shop_location_label": "Geschäftsstandort hinzufügen",
+			"create_shop_button_text": "Geschäft erstellen"
+		},
+		"form_edit": {
+			"h1_text": "Geschäft bearbeiten",
+			"title_label": "Titel",
+			"add_shop_category": "Geschäftskategorie hinzufügen",
+			"cover_image_label": "Titelbild",
+			"choose_cover_image": "Titelbild auswählen",
+			"choose_location": "Geschäftsstandort wählen",
+			"save_button_text": "Änderungen speichern"
+		},
+		"delete_message": {
+			"tour": "Sind Sie sicher, dass Sie die Tour löschen möchten",
+			"shop": "Sind Sie sicher, dass Sie löschen möchten",
+			"yes": "JA",
+			"no": "NEIN",
+			"deleting": "Löschen..."
+		}
+	},
+    "client_home": {
+        "hi_text": "Hallo",
+        "welcome_back_text": "Willkommen zurück!",
+        "no_review": "Sobald Sie damit beginnen, Bewertungen für Aktivitäten zu geben oder diese zu bewerten, werden Ihre Aktivitäten hier verfolgt!",
+        "h1_review_message": "Bitte werfen Sie einen Blick auf das, was Sie bewertet haben.",
+        "h1_rated_message": "Schauen Sie sich Touren an, die Sie bewertet haben.",
+        "bookmarked_text": "Gespeicherte Aktivitäten",
+        "approved": "VOM ADMINISTRATOR GENEHMIGT",
+        "under_review": "IN ÜBERPRÜFUNG"
+    }
+}

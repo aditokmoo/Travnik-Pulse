@@ -1,0 +1,79 @@
+@import "../../../styles/mixin.scss";
+.desktopBar {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0 5rem 0;
+  padding: 2rem 0;
+  @include responsive("tab-port") {
+    display: none;
+  }
+}
+
+.eventWrapper {
+  width: 50rem;
+  max-width: 50rem;
+  border-radius: 2rem;
+  overflow: hidden;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 1rem;
+  cursor: pointer;
+  span {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    color: #ffff;
+    z-index: 10;
+  }
+}
+
+.leftWrapper {
+  h2 {
+    @include desktop-md() {
+      @include text("display-md-semibold");
+    }
+    @include desktop-lg() {
+      @include text("display-xl-semibold");
+    }
+  }
+
+  p {
+    @include desktop-md() {
+      @include text("display-xs-semibold");
+    }
+    @include desktop-lg() {
+      @include text("display-md-semibold");
+    }
+  }
+
+  a {
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    background-color: #f37022;
+    color: #ffff;
+    margin-top: 5rem;
+    display: inline-block;
+  }
+}
+
+.orange {
+  color: #f37022;
+}
+
+.choiceSub {
+  @include text("display-sm-bold");
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(#ff7e5f, 0.5), rgba(#feb47b, 0.5));
+}

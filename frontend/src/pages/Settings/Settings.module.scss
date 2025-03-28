@@ -1,0 +1,195 @@
+@import "../../styles/mixin.scss";
+@import "../../styles/variables.scss";
+
+.item {
+  background-color: #f8f8f8;
+  margin: 1rem 0;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+  @include text("text-xl-semibold");
+  @include desktop-md() {
+    padding: 1rem;
+    font-size: 1.7rem;
+  }
+
+  position: relative;
+  span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    .customCheckbox {
+      background-color: #34c759;
+      border-radius: 6rem;
+      position: relative;
+      cursor: pointer;
+
+      .defaultCheckbox {
+        display: none;
+      }
+
+      .checkbox {
+        @include desktop-md() {
+          width: 5rem;
+          height: 2.5rem;
+        }
+
+        display: block;
+        width: 7rem;
+        height: 4rem;
+        border: 2px solid #34c759;
+        border-radius: 6rem;
+        transition: 0.5s;
+        &:before {
+          @include desktop-md() {
+            width: 2rem;
+            height: 2rem;
+          }
+          content: "";
+          position: absolute;
+          width: 3.5rem;
+          height: 3.5rem;
+          top: 2px;
+          right: 1px;
+          box-sizing: border-box;
+          background: #fff;
+          border-radius: 40px;
+          transition: 0.5s;
+          box-shadow: 0px 0px 11px -5px rgba(0, 0, 0, 0.75);
+          -webkit-box-shadow: 0px 0px 11px -5px rgba(0, 0, 0, 0.75);
+          -moz-box-shadow: 0px 0px 11px -5px rgba(0, 0, 0, 0.75);
+        }
+        :checked ~ .checkbox:before {
+          background: #fff;
+          border-color: #fff;
+          transform: translatex(-3rem);
+        }
+        :checked ~ .checkbox {
+          background-color: #ddd;
+          border: 1px solid #ddd;
+        }
+        :checked + .checkbox {
+          background-color: #ddd;
+        }
+      }
+    }
+
+    &.disabled {
+      cursor: default;
+      opacity: 0.4;
+      display: none;
+    }
+
+    &.active {
+      box-shadow: 0px 0px 11px -5px rgba(0, 0, 0, 0.75);
+      -webkit-box-shadow: 0px 0px 11px -5px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 0px 0px 11px -5px rgba(0, 0, 0, 0.75);
+    }
+
+    svg {
+      @include text("display-sm-bold");
+    }
+  }
+}
+
+.container {
+  @include desktop-lg() {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 120rem;
+    overflow-x: hidden;
+  }
+}
+.settingsWrapper {
+  padding: 2rem;
+  padding-bottom: 12rem;
+  @include desktop-lg() {
+    padding: 10rem 2rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    display: none;
+    @include desktop-lg() {
+      display: block;
+      width: 30rem;
+      position: relative;
+      left: 25%;
+    }
+  }
+
+  .settings {
+    margin: 2rem 0;
+    @include desktop-md() {
+      margin: 3rem 0 0 0;
+      width: 50rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    @include desktop-lg() {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    .general {
+      margin: 2rem 0;
+
+      .logout {
+        width: 100%;
+        padding: 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        border: 0;
+        background-color: $color-primary-red;
+        color: #fff;
+        font-size: 2rem;
+        border-radius: 1rem;
+        font-family: "Satoshi";
+        cursor: pointer;
+        svg {
+          font-size: 3rem;
+        }
+
+        &:hover {
+          opacity: 0.8;
+        }
+
+        @include desktop-md() {
+          padding: 1rem;
+          font-size: 1.5rem;
+          svg {
+            font-size: 2rem;
+          }
+        }
+
+        .options {
+          position: relative;
+        }
+      }
+
+      .notifications {
+        margin: 4rem 0;
+      }
+    }
+  }
+}
+
+.suggestionEnabled {
+  background-color: #ee2d21;
+  color: #fff;
+}
+
+.suggestionDisabled {
+  background-color: #34c759;
+  color: #ffff;
+}

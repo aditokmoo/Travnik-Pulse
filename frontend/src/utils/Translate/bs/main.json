@@ -1,0 +1,136 @@
+{
+	"main_page_navbar": {
+		"links": {
+			"1": "Početna",
+			"2": "Mapa",
+			"3": "Prodavnice",
+			"4": "Kalendar",
+			"5": "Postavke",
+			"login": "Prijava",
+			"admin": "Admin"
+		}
+	},
+	"main_page_hotels": {
+		"text": "od tebe"
+	},
+	"main_page_mobile_h1_text": "Našli smo mjesto za spavanje",
+	"main_page_desktop_text": {
+		"h1_text": "Dobrodošli u Travnik",
+		"h2_text": "Grad dobrih ljudi i dobre hrane!",
+		"button_text": "Istražite Travnik",
+		"event_of_choice": "Dogadjaj po našem izboru"
+	},
+	"preferences": {
+		"links": {
+			"0": "Dodaj",
+			"1": "Hrana",
+			"2": "Noćni život",
+			"3": "Umjetnost",
+			"4": "Istorija",
+			"5": "Muzeji",
+			"6": "Filmovi",
+			"7": "Muzika",
+			"8": "Kultura",
+			"9": "Parkovi",
+			"10": "Nauka",
+			"11": "Sport"
+		},
+		"save_button_text": "Sačuvaj",
+		"cancel_button_text": "Otkaži"
+	},
+	"main_page_tour_details": {
+		"no_tours": "Nema tura za ovu kategoriju",
+		"free_text": "BESPLATNO",
+		"expired": "ISTEKLO",
+		"rate_tour": "Ocijeni turu",
+		"view_location_text": "Pogledaj lokaciju na mapi",
+		"review_button_text": "Napišite recenziju",
+		"bookmark_button_text": "Obezbijedi ovu aktivnost",
+		"activity_bookmarked": "Aktivnost označena",
+		"review_form": {
+			"h1_text": "Vaša recenzija je izuzetno korisna, hvala vam",
+			"message_label_text": "Poruka",
+			"message_input_placeholder": "Vaša poruka",
+			"images_label_text": "Priložite slike",
+			"button_text": "Pošalji recenziju"
+		}
+	},
+	"main_page_map": {
+		"nav_links": {
+			"1": "Sve",
+			"2": "Radius",
+			"3": "Događaji",
+			"4": "Hoteli",
+			"5": "Prodavnice"
+		},
+		"radius_placeholder": "Unesite poluprečnik u km",
+		"set_button_text": "Postavi",
+		"popup_details": {
+			"direction_button_text": "Uputstva",
+			"see_more_button_text": "Vidi više",
+			"overview_text": "PREGLED",
+			"overview_route_calculate": "Pokreni rutu za izračun",
+			"overview_price_free": "BESPLATNO"
+		}
+	},
+	"main_page_calendar": {
+		"events_text": "događaji"
+	},
+	"main_page_settings": {
+		"h3_text": "Opće postavke",
+		"links": {
+			"1": "Moj profil",
+			"2": "Promijeni jezik",
+			"3": "Promijeni preferencije",
+			"4": "Resetuj postavke",
+			"5": "Onemogući sugestije",
+			"6": "Omogući sugestije",
+			"7": "Odjava"
+		},
+		"reset_modal": {
+			"text": "Da li ste sigurni da želite resetovati sve postavke (Preferencije, Lokacija, itd.)?",
+			"yes": "DA",
+			"no": "NE"
+		}
+	},
+	"main_page_shop": {
+		"preferences": {
+			"1": "Odjeća",
+			"2": "Suvenir",
+			"3": "Umjetnost",
+			"4": "Knjižare",
+			"5": "Nakit",
+			"6": "Kuća",
+			"7": "Elektronika",
+			"8": "Hrana",
+			"9": "Namirnice",
+			"10": "Muzika",
+			"11": "Ljepota",
+			"12": "Igračke",
+			"13": "Sport",
+			"14": "Kućni ljubimci",
+			"15": "Tehnologija",
+			"16": "Prodavnice obuće",
+			"17": "Zdravlje",
+			"18": "Cvjećare"
+		}
+	},
+	"main_page_login": {
+		"h1_text": "Dobrodošli natrag!",
+		"p_text": "Prijavite se kako biste objavili recenziju i ocijenili mjesto gdje ste bili.",
+		"username_label_text": "Korisničko ime",
+		"username_placeholder_text": "johndoe",
+		"password_label_text": "Lozinka",
+		"login_button_text": "Prijava",
+		"create_account_text": "Kreirajte račun"
+	},
+	"main_page_register": {
+		"h1_text": "Kreirajte novi račun",
+		"p_text": "Ako ga nemate, slobodno kreirajte novi račun popunjavanjem jednostavnog obrasca.",
+		"username_label_text": "Korisničko ime",
+		"username_placeholder_text": "johndoe",
+		"password_label_text": "Lozinka",
+		"confirm_pass_label_text": "Potvrdi lozinku",
+		"register_button_text": "Kreirajte račun"
+	}
+}

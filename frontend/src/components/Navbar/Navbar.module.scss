@@ -1,0 +1,47 @@
+@import "../../styles/mixin.scss";
+@import "../../styles/variables.scss";
+
+.nav {
+  position: relative;
+
+  background-color: #fff;
+
+  padding: 0.5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+  img {
+    max-width: 8rem;
+  }
+
+  @include desktop-md() {
+    display: none;
+  }
+  .calendar {
+    text-decoration: none;
+    color: $color-primary-red;
+    font-weight: bold;
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.loginBtn {
+  padding: 1rem 2rem;
+  border-radius: 100px;
+  background-color: $color-primary-red;
+  text-decoration: none;
+  color: #ffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 1.7rem;
+
+  svg {
+    font-size: 2.3rem;
+  }
+}

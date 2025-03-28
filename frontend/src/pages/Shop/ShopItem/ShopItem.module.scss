@@ -1,0 +1,30 @@
+.shopItem {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 20rem;
+  border-radius: 2rem;
+
+  .shopItemOverlay {
+    background: linear-gradient(
+      to right,
+      rgba(255, 126, 95, 0.5),
+      rgba(254, 180, 123, 0.5)
+    );
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+  }
+
+  .text {
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    color: #fff;
+  }
+}

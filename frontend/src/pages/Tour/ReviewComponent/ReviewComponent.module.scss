@@ -1,0 +1,37 @@
+.reviewWrapper {
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  padding: 2rem;
+
+  p {
+    margin-top: 1rem;
+  }
+}
+
+.userRateData {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.userData {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.imagesWrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 1rem;
+
+  img {
+    border-radius: 6px;
+    width: 100%;
+  }
+}
+
+.starWrapper {
+  color: #fce828;
+}

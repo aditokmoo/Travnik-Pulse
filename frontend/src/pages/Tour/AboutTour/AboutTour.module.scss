@@ -1,0 +1,103 @@
+@import "../../../styles/mixin.scss";
+.details {
+  padding: 2rem;
+  height: 100%;
+  background-color: #ffff;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  color: #313131;
+}
+
+.filters {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+
+  @include desktop() {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include desktop-md() {
+    margin: 3rem 0;
+    gap: 0.6rem;
+  }
+}
+
+.reviewsWrapper {
+  margin-top: 5rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.leaveReviewBtn {
+  padding: 1rem;
+  border-radius: 6px;
+  width: 100%;
+  margin-top: 2rem;
+  background-color: #f37022;
+  color: #fff;
+  border: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  transition: 0.2s;
+  @include text("text-sm-bold");
+  color: #fff;
+  svg {
+  }
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.bookmarkActivity {
+  padding: 1rem;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.6;
+  }
+  border-radius: 6px;
+  width: 100%;
+  margin-top: 2rem;
+  border: 1px solid #f37022;
+  color: #f37022;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  justify-content: center;
+  gap: 1rem;
+  @include text("text-sm-bold");
+}
+
+.isBookmarked {
+  background-color: #f37022 !important;
+  color: #fff !important;
+}
+
+.underline {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.btnWrapper {
+  @include desktop() {
+    display: flex;
+    gap: 2rem;
+  }
+}
+
+.expiredSession {
+  color: #dc2626;
+}

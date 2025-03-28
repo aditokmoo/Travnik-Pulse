@@ -1,0 +1,76 @@
+@import "../../../styles/mixin.scss";
+
+.sectionBody {
+  padding: 10rem 3rem;
+
+  h2 {
+    margin-bottom: 5rem;
+
+    @include desktop-md() {
+      max-width: 120rem;
+      margin-left: auto;
+      margin-right: auto;
+
+      @include text("display-xl-semibold");
+    }
+  }
+}
+
+.shopsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+
+  @include desktop-md() {
+    max-width: 120rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.category {
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #f37022;
+}
+
+.categoryWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  @include desktop() {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include desktop-md() {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @include desktop-lg() {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.createShop {
+  font-size: 4rem;
+  color: #fff;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  background-color: #f37022;
+  position: fixed;
+  bottom: 12rem;
+  right: 2rem;
+  padding: 2rem;
+}

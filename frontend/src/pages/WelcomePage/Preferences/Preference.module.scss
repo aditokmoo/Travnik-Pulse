@@ -1,0 +1,49 @@
+@import "../../../styles/mixin.scss";
+.preferenceSection {
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .panel {
+    max-width: 33.5rem;
+
+    h2 {
+      @include text("display-sm-bold");
+      margin-bottom: 1rem;
+    }
+
+    p {
+      @include text("text-md-semibold");
+      margin-bottom: 4rem;
+    }
+  }
+
+  button:last-of-type {
+    width: 100%;
+    margin-top: 5rem;
+    line-height: 2.4rem;
+    font-size: 1.6rem;
+    color: #fff;
+    font-weight: 700;
+    padding: 1.2rem 0;
+    background-color: #f37022;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  button:first-of-type {
+    font-size: 2.4rem;
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    align-items: center;
+    gap: 10px;
+    border-radius: 95px;
+    background-color: #f7f2f2;
+    border: none;
+  }
+}

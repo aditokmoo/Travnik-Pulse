@@ -1,0 +1,44 @@
+{
+    "yes": "Da",
+    "no": "Ne",
+    "welcome_page": {
+        "h1_text": "Dobrodošli u Travnik",
+        "p_text": "Grad dobrih ljudi i dobre hrane! Pronađite ljude, družite se, jedite dobro, učite o istoriji, uživajte u prirodi, posjećujte muzeje...",
+        "button_text": "Istražite Travnik"
+    },
+    "details_page": {
+        "h1_text": "Upoznajte nas bolje",
+        "p_text": "Dajte nam informacije koje će poboljšati vaše uživanje u Travniku",
+        "time_details": {
+            "title": "Koliko dugo ćeš biti tamo?"
+        },
+        "suggest_text": "Da li želite naš predlog",
+        "people_details": {
+            "title": "Koliko vas je u posjeti Travniku?"
+        },
+        "button_text": "Nastavi"
+    },
+    "location_page": {
+        "h1_text": "Recite nam gde ste",
+        "p_text": "Označavanjem vaše lokacije moći ćemo vam predložiti najbolja mjesta u Travniku, u vašoj blizini",
+        "button_text": "Nastavite do aplikacije"
+    },
+    "preferences_page": {
+        "h1_text": "Odaberite svoje željene postavke",
+        "p_text": "Odaberite 5 preferencija koje biste željeli vidjeti dok istražujete Travnik",
+        "preferences": {
+            "1": "Hrana",
+            "2": "Noćni život",
+            "3": "Umjetnost",
+            "4": "Istorija",
+            "5": "Muzeji",
+            "6": "Filmovi",
+            "7": "Muzika",
+            "8": "Kultura",
+            "9": "Parkovi",
+            "10": "Nauka",
+            "11": "Sport"
+        },
+        "button_text": "Pošaljite izbore"
+    }
+}

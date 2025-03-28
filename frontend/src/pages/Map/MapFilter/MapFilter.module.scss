@@ -1,0 +1,88 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/mixin.scss";
+
+.mapFilter {
+  width: 100%;
+  right: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  position: absolute;
+  top: 12rem;
+
+  @include responsive("mobile") {
+    padding-left: 2rem;
+    padding-right: 5rem;
+    overflow-x: scroll;
+    width: 100%;
+    justify-content: flex-start;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  .filter {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-radius: 5rem;
+    text-align: center;
+
+    svg {
+    }
+    @include text("text-md-semibold");
+
+    &.active {
+      background-color: $color-primary-red;
+      color: #fff;
+    }
+  }
+}
+
+.radiusModal {
+  position: fixed;
+  bottom: 12rem;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  width: 45rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  svg {
+    width: 20%;
+    background-color: #fff;
+    height: 5.7rem;
+    padding: 1.5rem;
+    border-radius: 5px;
+  }
+
+  input {
+    width: 60%;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    outline: none;
+    border-radius: 5px;
+  }
+
+  button {
+    padding: 1.5rem;
+    width: 20%;
+    border: 0;
+    border-radius: 5px;
+    background-color: $color-primary-red;
+    color: #fff;
+    font-size: 2rem;
+    font-family: "Satoshi";
+  }
+}

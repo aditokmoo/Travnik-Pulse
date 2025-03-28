@@ -1,0 +1,48 @@
+@import "../../styles/variables.scss";
+@import "../../styles/mixin.scss";
+.nav {
+  background-color: #fff;
+  position: fixed;
+  z-index: 999999;
+  bottom: 1.5rem;
+  left: 0;
+  right: 0;
+  border-radius: 10rem;
+  margin: 0 2rem;
+  padding: 2rem 0;
+  box-shadow: 0px 0px 20px -9px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 20px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 20px -9px rgba(0, 0, 0, 0.75);
+
+  @include desktop-md() {
+    display: none;
+  }
+
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+
+    .link {
+      color: #000;
+      font-size: 3rem;
+
+      &.active {
+        color: $color-primary-red;
+        position: relative;
+
+        &::before {
+          content: "";
+          position: absolute;
+          width: 0.6rem;
+          height: 0.6rem;
+          bottom: 0;
+          left: 1.1rem;
+          background-color: $color-primary-red;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+}

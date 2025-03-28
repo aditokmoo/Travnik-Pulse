@@ -1,0 +1,85 @@
+@import "../../../styles/mixin.scss";
+.dateBox {
+  gap: 1rem;
+  align-items: center;
+  height: 10rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+  background: #fff;
+  border: none;
+  margin-left: none !important;
+  margin-inline: none !important;
+  width: 100%;
+  outline: none;
+
+  @include desktop-md() {
+    padding: 0.3rem;
+    height: 12rem;
+  }
+
+  abbr {
+    @include desktop-md {
+      @include text("text-md-regular");
+      font-weight: 700;
+    }
+  }
+
+  @include text("text-xs-medium");
+  color: #9b9b9b;
+  /* Shadow sm */
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.06),
+    0px 1px 3px 0px rgba(16, 24, 40, 0.1);
+
+  justify-content: center;
+
+  img {
+    max-width: 3rem;
+    height: 3rem;
+    border-radius: 100px;
+    margin-right: -1rem;
+    @include desktop-lg {
+      width: 5rem !important;
+      max-width: 5rem !important;
+      height: 5rem !important;
+    }
+  }
+
+  .imgWrapper {
+    display: flex;
+    justify-content: center;
+    margin: 0.3rem 0;
+  }
+}
+
+.calendarWrapper {
+  margin-top: 5rem;
+
+  @include desktop-md() {
+    max-width: 120rem;
+    margin: 0 auto;
+  }
+}
+
+.today {
+  border: none;
+  outline: none;
+
+  background-color: #f37022;
+  color: #ffff;
+}
+
+.haveEvent {
+  border: 1px solid #f37022;
+}
+
+.tourLengthCount {
+  @include text("text-sm-regular");
+
+  @include desktop-lg {
+    @include text("text-md-regular");
+  }
+}
+
+.tourImg {
+}

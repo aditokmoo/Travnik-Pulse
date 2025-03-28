@@ -1,0 +1,134 @@
+{
+	"main_page_navbar": {
+		"links": {
+			"1": "Dashboard",
+			"2": "Map",
+			"3": "Shops",
+			"4": "Calendar",
+			"5": "Settings",
+			"login": "Login",
+			"admin": "Admin"
+		}
+	},
+	"main_page_hotels": {
+		"text": "from you"
+	},
+	"main_page_mobile_h1_text": "We found a place for you to sleep",
+	"main_page_desktop_text": {
+		"h1_text": "Welcome to Travnik",
+		"h2_text": "City of good people & good food!",
+		"button_text": "Explore Travnik",
+		"event_of_choice": "Event of our choice"
+	},
+	"preferences": {
+		"links": {
+			"0": "Add",
+			"1": "Food",
+			"2": "Nightlife",
+			"3": "Art",
+			"4": "History",
+			"5": "Museums",
+			"6": "Movies",
+			"7": "Music",
+			"8": "Culture",
+			"9": "Parks",
+			"10": "Science",
+			"11": "Sport"
+		},
+		"save_button_text": "Save",
+		"cancel_button_text": "Cancel"
+	},
+	"main_page_tour_details": {
+		"no_tours": "No tours for this category",
+		"free_text": "FREE",
+		"expired": "EXPIRED",
+		"rate_tour": "Rate tour",
+		"view_location_text": "View location on map",
+		"review_button_text": "Leave a review",
+		"bookmark_button_text": "Bookmark this activity",
+		"activity_bookmarked": "Activity bookmarked",
+		"review_form": {
+			"h1_text": "Your review is incredibly helpful, thank you",
+			"message_label_text": "Message",
+			"message_input_placeholder": "Your message",
+			"images_label_text": "Attach images",
+			"button_text": "Submit review"
+		}
+	},
+	"main_page_map": {
+		"nav_links": {
+			"1": "All",
+			"2": "Radius",
+			"3": "Events",
+			"4": "Hotels",
+			"5": "Shops"
+		},
+		"radius_placeholder": "Enter radius in km",
+		"set_button_text": "Set",
+		"popup_details": {
+			"direction_button_text": "Directions",
+			"see_more_button_text": "See more",
+			"overview_text": "OVERVIEW",
+			"overview_route_calculate": "Start route to calculate",
+			"overview_price_free": "FREE"
+		}
+	},
+	"main_page_calendar": {
+		"events_text": "events"
+	},
+	"main_page_settings": {
+		"h3_text": "General settings",
+		"links": {
+			"1": "My profile",
+			"2": "Change language",
+			"3": "Change preferences",
+			"4": "Reset settings",
+			"5": "Disable suggestions",
+			"6": "Enable suggestions",
+			"7": "Log out"
+		},
+		"reset_modal": {
+			"text": "Are you sure that you want to reset all settings (Preferences, Location, etc..)?",
+			"yes": "YES",
+			"no": "NO"
+		}
+	},
+	"main_page_shop": {
+		"preferences": {
+			"1": "Clothing",
+			"2": "Souvenir",
+			"3": "Art",
+			"4": "Bookstores",
+			"5": "Jewelry",
+			"6": "Home",
+			"7": "Electronis",
+			"8": "Food",
+			"9": "Grocery",
+			"10": "Music",
+			"11": "Beauty",
+			"12": "Toys",
+			"13": "Sports",
+			"14": "Pets",
+			"15": "Technology",
+			"16": "Shoe stores",
+			"17": "Health",
+			"18": "Florists"
+		}
+	},
+	"main_page_login": {
+		"h1_text": "Welcome back!",
+		"p_text": "Log in to post a review, and rate the place where you’ve been",
+		"username_label_text": "Username",
+		"password_label_text": "Password",
+		"login_button_text": "Login",
+		"create_account_text": "Create Account"
+	},
+	"main_page_register": {
+		"h1_text": "Create New Account",
+		"p_text": "If you don’t have one, feel free to create new account by filling simple form",
+		"username_label_text": "Username",
+		"password_label_text": "Password",
+		"confirm_pass_label_text": "Password",
+		"register_button_text": "Create Account"
+	}
+}

@@ -1,0 +1,48 @@
+@import "../../styles/mixin.scss";
+
+.nav {
+  border: 1px solid #eee;
+  @include responsive("tab-port") {
+    display: none;
+  }
+
+  img {
+    max-width: 8rem;
+  }
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 2rem;
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+}
+
+:global(.active) {
+  color: #f37022 !important;
+}
+
+.operation {
+  background-color: #f37022;
+  padding: 0.5rem 1.2rem;
+  border-radius: 100px;
+  color: #fff;
+}
+
+.whiteBG {
+  background-color: #fff !important;
+  border: 1px solid #f37022;
+}

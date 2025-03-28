@@ -1,0 +1,32 @@
+@import "../../styles/mixin.scss";
+
+.reviewItem {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 1.5rem;
+  padding: 1rem 0;
+  border-top: 1px solid #f1f1f1;
+  transition: opacity 0.3s ease;
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:last-of-type {
+    border-bottom: 1px solid #f1f1f1;
+  }
+  .index {
+    width: 4rem;
+    height: 4rem;
+    background-color: #ddd0d0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #674747;
+    border-radius: 100px;
+  }
+  @include desktop() {
+    @include text("text-xl-regular");
+  }
+}

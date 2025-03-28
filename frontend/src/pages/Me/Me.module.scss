@@ -1,0 +1,159 @@
+@import "../../styles/mixin.scss";
+
+.sectionBody {
+  padding: 0rem 2rem 13rem 2rem;
+
+  @include desktop-lg() {
+    padding-top: 10rem;
+  }
+}
+
+.ReviewPanel {
+  margin-top: 5rem;
+}
+
+.reviewsWrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+
+  @include desktop-md() {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @include desktop-lg() {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  div {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding-bottom: 2rem;
+    border-radius: 6px;
+    overflow: hidden;
+    background: linear-gradient(
+      to right,
+      rgba(255, 126, 95, 0.5),
+      rgba(254, 180, 123, 0.5)
+    );
+
+    overflow: hidden;
+    img {
+      width: 100%;
+      opacity: 0.6;
+    }
+
+    span {
+      display: block;
+      padding: 0 1rem;
+    }
+  }
+}
+
+.spanSub {
+  margin-bottom: 2rem;
+  display: block;
+
+  @include desktop-lg() {
+    @include text("display-xs-regular");
+  }
+}
+
+.adminLink {
+  display: block;
+  padding: 1rem 2rem;
+  background-color: #fbfbfb;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #000;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  @include text("text-lg-semibold");
+
+  @include desktop-md() {
+    @include text("display-xs-semibold");
+  }
+  svg {
+    font-size: 2.3rem;
+
+    @include desktop-md() {
+      font-size: 3rem;
+    }
+  }
+}
+
+.reviewStatus {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+
+  color: #b45309;
+}
+
+.approved {
+  color: #34c759;
+}
+
+.ratedToursPanel {
+  margin-top: 5rem;
+}
+
+.ratedToursWrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+
+  @include desktop-md() {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @include desktop-lg() {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.noReviewsNoRatings {
+  text-align: center;
+  padding: 1rem;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.bookmarksWrapper {
+  margin-top: 2rem;
+}
+
+.bookmarksGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  @include desktop-md() {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @include desktop-lg() {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  gap: 2rem;
+}
+
+.container {
+  @include desktop-md() {
+    max-width: 120rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.welcomMessage {
+  @include desktop-md() {
+    @include text("display-md-regular");
+    letter-spacing: 1px;
+  }
+}

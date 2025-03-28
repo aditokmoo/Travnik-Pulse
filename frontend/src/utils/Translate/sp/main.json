@@ -1,0 +1,137 @@
+{
+    "main_page_navbar": {
+        "links": {
+            "1": "Tablero",
+            "2": "Mapa",
+            "3": "Tiendas",
+            "4": "Calendario",
+            "5": "Ajustes",
+            "login": "Iniciar sesión",
+            "admin": "Admin"
+        }
+    },
+    "main_page_hotels": {
+        "text": "de usted"
+    },
+    "main_page_mobile_h1_text": "Encontramos un lugar para que duermas",
+    "main_page_desktop_text": {
+        "h1_text": "Bienvenido a Travnik",
+        "h2_text": "¡Ciudad de gente buena y buena comida!",
+        "button_text": "Explorar Travnik",
+        "event_of_choice": "Evento de nuestra elección"
+    },
+    "preferences": {
+        "links": {
+            "0": "Agregar",
+            "1": "Comida",
+            "2": "Vida nocturna",
+            "3": "Arte",
+            "4": "Historia",
+            "5": "Museos",
+            "6": "Películas",
+            "7": "Música",
+            "8": "Cultura",
+            "9": "Parques",
+            "10": "Ciencia",
+            "11": "Deportes"
+        },
+        "save_button_text": "Guardar",
+        "cancel_button_text": "Cancelar"
+    },
+    "main_page_tour_details": {
+        "no_tours": "No hay tours para esta categoría",
+        "free_text": "GRATIS",
+        "expired": "CADUCADO",
+        "rate_tour": "Calificar tour",
+        "view_location_text": "Ver ubicación en el mapa",
+        "review_button_text": "Dejar una reseña",
+        "bookmark_button_text": "Marcar esta actividad",
+        "activity_bookmarked": "Actividad marcada",
+        "review_form": {
+            "h1_text": "Tu reseña es increíblemente útil, gracias",
+            "message_label_text": "Mensaje",
+            "message_input_placeholder": "Tu mensaje",
+            "images_label_text": "Adjuntar imágenes",
+            "button_text": "Enviar reseña"
+        }
+    },
+    "main_page_map": {
+        "nav_links": {
+            "1": "Todo",
+            "2": "Radio",
+            "3": "Eventos",
+            "4": "Hoteles",
+            "5": "Tiendas"
+        },
+        "radius_placeholder": "Ingrese radio en km",
+        "set_button_text": "Establecer",
+        "popup_details": {
+            "direction_button_text": "Indicaciones",
+            "see_more_button_text": "Ver más",
+            "overview_text": "DESCRIPCIÓN",
+            "overview_route_calculate": "Iniciar ruta para calcular",
+            "overview_price_free": "GRATIS"
+        }
+    },
+    "main_page_calendar": {
+        "events_text": "eventos"
+    },
+    "main_page_settings": {
+        "h3_text": "Configuración general",
+        "links": {
+            "1": "Mi perfil",
+            "2": "Cambiar idioma",
+            "3": "Cambiar preferencias",
+            "4": "Restablecer configuración",
+            "5": "Desactivar sugerencias",
+            "6": "Activar sugerencias",
+            "7": "Cerrar sesión"
+        },
+        "reset_modal": {
+            "text": "¿Estás seguro de que quieres restablecer todas las configuraciones (Preferencias, Ubicación, etc.)?",
+            "yes": "SÍ",
+            "no": "NO"
+        }
+        
+    },
+    "main_page_shop": {
+        "preferences": {
+            "1": "Ropa",
+            "2": "Recuerdos",
+            "3": "Arte",
+            "4": "Librerías",
+            "5": "Joyería",
+            "6": "Hogar",
+            "7": "Electrónica",
+            "8": "Comida",
+            "9": "Alimentos",
+            "10": "Música",
+            "11": "Belleza",
+            "12": "Juguetes",
+            "13": "Deportes",
+            "14": "Mascotas",
+            "15": "Tecnología",
+            "16": "Tiendas de zapatos",
+            "17": "Salud",
+            "18": "Florerías"
+        }
+    },
+    "main_page_login": {
+        "h1_text": "¡Bienvenido de nuevo!",
+        "p_text": "Inicia sesión para publicar una reseña y calificar el lugar donde has estado.",
+        "username_label_text": "Nombre de usuario",
+        "username_placeholder_text": "johndoe",
+        "password_label_text": "Contraseña",
+        "login_button_text": "Iniciar sesión",
+        "create_account_text": "Crear cuenta"
+    },
+    "main_page_register": {
+        "h1_text": "Crear una nueva cuenta",
+        "p_text": "Si no tienes una, siéntete libre de crear una nueva cuenta rellenando un formulario sencillo.",
+        "username_label_text": "Nombre de usuario",
+        "username_placeholder_text": "johndoe",
+        "password_label_text": "Contraseña",
+        "confirm_pass_label_text": "Confirmar contraseña",
+        "register_button_text": "Crear cuenta"
+    }    
+}

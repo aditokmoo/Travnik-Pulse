@@ -1,0 +1,108 @@
+@import "../../../styles/mixin.scss";
+.panel {
+  min-height: 100dvh;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 9999999;
+  width: 100%;
+  background-color: #ffff;
+  padding: 2rem;
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.toursWrapper {
+  display: flex;
+  align-content: start;
+  padding-bottom: 13rem;
+  flex-direction: column;
+  gap: 3rem;
+
+  padding-right: 1rem;
+  &::-webkit-scrollbar {
+    background-color: #ffff;
+    width: 5px;
+    border-radius: 5px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #f37022;
+    border-radius: 5px;
+  }
+  height: 80rem;
+  overflow-y: scroll;
+
+  @include desktop() {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include desktop-md() {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @include desktop-lg() {
+    max-width: 120rem;
+    margin: 0 auto;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.plusDiv {
+  height: 7rem;
+  width: 7rem;
+  position: fixed;
+  bottom: 3rem;
+  right: 5rem;
+  background-color: #f37022;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  font-size: 3rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 100px;
+
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
+.closePanel {
+  position: absolute;
+  top: 3rem;
+  right: 2rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 3rem;
+  background-color: transparent;
+}
+
+.panelDate {
+  text-align: center;
+  display: block;
+  margin-bottom: 5rem;
+  @include text("text-xl-medium");
+}
+
+.noActivitiesMsg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.absPosition {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
