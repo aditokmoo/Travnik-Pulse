@@ -1,7 +1,7 @@
 const BASE_URL = import.meta.env.VITE_BACKEND_URL
 export async function getAllTours() {
   try {
-    const res = await fetch(`${BASE_URL}api/tours`);
+    const res = await fetch(`/${BASE_URL}api/tours`);
     const data = await res.json();
     return data.tours;
   } catch (err) {
