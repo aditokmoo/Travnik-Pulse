@@ -1,4 +1,4 @@
-Travnik Pulse
+# Travnik Pulse
 Travnik Pulse is a web application designed to enhance the tourism experience in the captivating city of Travnik. This application provides tourists with a comprehensive platform to discover, engage, and review various attractions and activities within the city. Whether you're a seasoned traveler or a first-time visitor, Travnik Pulse aims to make your journey memorable and full of exciting adventures.
 
 Features
