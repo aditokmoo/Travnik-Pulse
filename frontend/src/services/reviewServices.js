@@ -2,7 +2,7 @@ const BASE_URL = import.meta.env.VITE_BACKEND_URL
 export async function getUnapprovedReviews() {
   const token = localStorage.getItem("jwt");
   try {
-    const res = await fetch(`/${BASE_URL}api/reviews/unapproved-reviews`, {
+    const res = await fetch(`${BASE_URL}/api/reviews/unapproved-reviews`, {
       headers: { Authorization: `Bearer ${token}` },
     });
     const data = await res.json();

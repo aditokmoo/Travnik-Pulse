@@ -2,7 +2,7 @@ const BASE_URL = import.meta.env.VITE_BACKEND_URL
 
 export async function getAllShops() {
   try {
-    const res = await fetch(`/${BASE_URL}api/shops`);
+    const res = await fetch(`${BASE_URL}/api/shops`);
     const data = await res.json();
 
     return data.shops;
