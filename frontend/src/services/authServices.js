@@ -21,7 +21,7 @@ export async function login(username, password) {
 
 export async function signup(username, password, passwordConfirm) {
   try {
-    const res = await fetch(`${BASE_URL}api/auth/signup`, {
+    const res = await fetch(`${BASE_URL}/api/auth/signup`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -44,7 +44,7 @@ export async function getUser() {
   const token = localStorage.getItem("jwt");
   if (!token) return "Unauthorized";
   try {
-    const res = await fetch(`${BASE_URL}api/auth/getUser`, {
+    const res = await fetch(`${BASE_URL}/api/auth/getUser`, {
       headers: { Authorization: `Bearer ${token}` },
     });
 

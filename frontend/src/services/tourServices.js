@@ -11,7 +11,7 @@ export async function getAllTours() {
 
 export async function getSingleTour(tourId) {
   try {
-    const res = await fetch(`${BASE_URL}api/tours/${tourId}`);
+    const res = await fetch(`${BASE_URL}/api/tours/${tourId}`);
     const data = await res.json();
     if (data.status === "success") return data.tour;
     return "not-found";
@@ -23,7 +23,7 @@ export async function getSingleTour(tourId) {
 export async function deleteTour(tourId) {
   try {
     const token = localStorage.getItem("jwt");
-    await fetch(`${BASE_URL}api/tours/${tourId}`, {
+    await fetch(`${BASE_URL}/api/tours/${tourId}`, {
       method: "DELETE",
       headers: { Authorization: `Bearer ${token}` },
     });
@@ -35,7 +35,7 @@ export async function deleteTour(tourId) {
 export async function editTour(formData, tourID) {
   const token = localStorage.getItem("jwt");
   try {
-    const res = await fetch(`${BASE_URL}api/tours/${tourID}`, {
+    const res = await fetch(`${BASE_URL}/api/tours/${tourID}`, {
       method: "PATCH",
       headers: {
         Authorization: `Bearer ${token}`,
@@ -53,7 +53,7 @@ export async function editTour(formData, tourID) {
 export async function createTour(formData) {
   const token = localStorage.getItem("jwt");
 
-  const res = await fetch(`${BASE_URL}api/tours`, {
+  const res = await fetch(`${BASE_URL}/api/tours`, {
     method: "POST",
     headers: { Authorization: `Bearer ${token}` },
     body: formData,
@@ -65,7 +65,7 @@ export async function createTour(formData) {
 export async function rateTour(tourID, rating) {
   const token = localStorage.getItem("jwt");
   try {
-    const res = await fetch(`${BASE_URL}api/tours/rate-tour/${tourID}`, {
+    const res = await fetch(`${BASE_URL}/api/tours/rate-tour/${tourID}`, {
       method: "PATCH",
       headers: {
         Authorization: `Bearer ${token}`,
@@ -83,7 +83,7 @@ export async function rateTour(tourID, rating) {
 export async function bookmarkTour(tourID) {
   const token = localStorage.getItem("jwt");
   try {
-    const res = await fetch(`${BASE_URL}api/tours/bookmark-tour/${tourID}`, {
+    const res = await fetch(`${BASE_URL}/api/tours/bookmark-tour/${tourID}`, {
       method: "PATCH",
       headers: {
         Authorization: `Bearer ${token}`,
@@ -100,13 +100,10 @@ export async function getRadiusTour() {
   const userPositon = JSON.parse(localStorage.getItem("position"));
   const radius = JSON.parse(localStorage.getItem("radius"));
 
-  console.log(
-    `${BASE_URL}api/tours/tours-within/distance/${radius}/center/${userPositon.lng},${userPositon.lat}`
-  );
   if (!radius) return "no-radius";
   try {
     const res = await fetch(
-      `${BASE_URL}api/tours/tours-within/distance/${radius}/center/${userPositon.lng},${userPositon.lat}`
+      `${BASE_URL}/api/tours/tours-within/distance/${radius}/center/${userPositon.lng},${userPositon.lat}`
     );
     const data = await res.json();
     console.log(data.tours);

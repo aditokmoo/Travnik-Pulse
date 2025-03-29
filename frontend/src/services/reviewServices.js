@@ -17,7 +17,7 @@ export async function getSingleUnapprovedReview(reviewID) {
   const token = localStorage.getItem("jwt");
   try {
     const res = await fetch(
-      `${BASE_URL}api/reviews/unapproved-reviews/${reviewID}`,
+      `${BASE_URL}/api/reviews/unapproved-reviews/${reviewID}`,
       { headers: { Authorization: `Bearer ${token}` } }
     );
     const data = await res.json();
@@ -34,7 +34,7 @@ export async function approveReview(reviewID) {
 
   try {
     const res = await fetch(
-      `${BASE_URL}api/reviews/approve-review/${reviewID}`,
+      `${BASE_URL}/api/reviews/approve-review/${reviewID}`,
       {
         method: "PATCH",
         headers: { Authorization: `Bearer ${token}` },
@@ -51,7 +51,7 @@ export async function approveReview(reviewID) {
 export async function declineReview(reviewID) {
   const token = localStorage.getItem("jwt");
   try {
-    await fetch(`${BASE_URL}api/reviews/decline-review/${reviewID}`, {
+    await fetch(`${BASE_URL}/api/reviews/decline-review/${reviewID}`, {
       method: "DELETE",
       headers: { Authorization: `Bearer ${token}` },
     });
@@ -64,7 +64,7 @@ export async function declineReview(reviewID) {
 export async function createReview(tourID, formData) {
   const token = localStorage.getItem("jwt");
   try {
-    const res = await fetch(`${BASE_URL}api/reviews/review-tour/${tourID}`, {
+    const res = await fetch(`${BASE_URL}/api/reviews/review-tour/${tourID}`, {
       method: "PATCH",
       headers: { Authorization: `Bearer ${token}` },
       body: formData,
